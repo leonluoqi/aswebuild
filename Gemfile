@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # 指定 Jekyll 版本
 gem "jekyll", "~> 4.3.4"
+gem "minimal-mistakes-jekyll"
+
 
 # 需要明确声明 Ruby 3.4 的默认 gem
 gem "csv"

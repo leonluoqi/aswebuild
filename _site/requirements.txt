@@ -1,5 +1,0 @@
-lxml
-beautifulsoup4
-requests
-html2text
-pymarkdownlnt>=0.9.24

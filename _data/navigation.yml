@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "电商指南"
+    url: /%e5%8c%97%e7%be%8e%e7%94%b5%e5%95%86%e6%8c%87%e5%8d%97/
+  - title: "进口指南"
+    url: /%e4%bb%8e%e4%b8%ad%e5%9b%bd%e8%bf%9b%e5%8f%a3%e5%88%b0%e5%8a%a0%e6%8b%bf%e5%a4%a7%e6%8c%87%e5%8d%97%e6%89%8b%e5%86%8c/
+  - title: "购买企业"
+    url: /%e5%8a%a0%e6%8b%bf%e5%a4%a7%e8%b4%ad%e4%b9%b0%e7%94%9f%e6%84%8f%e6%8c%87%e5%8d%97/
+  - title: "报税指南"
+    url: /%e5%8a%a0%e6%8b%bf%e5%a4%a7%e5%b0%8f%e4%bc%81%e4%b8%9a%e6%8a%a5%e7%a8%8e%e9%9c%80%e7%9f%a5/
+  - title: "创业资源"
+    url: /%e5%88%9b%e4%b8%9a%e8%b5%84%e6%ba%90%e6%8e%a8%e8%8d%90/
+  - title: "工具推荐"
+    url: /affiliate/
+  - title: "创业案例"
+    url: /%e5%8c%97%e7%be%8e%e5%88%9b%e4%b8%9a%e6%a1%88%e4%be%8b/
+  - title: "归档"
+    url: /archive/

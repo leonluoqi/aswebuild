@@ -1,0 +1,36 @@
+---
+---
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+
+
+/* 1. 限制 .page__hero-inner 宽度与正文一致，并居中 */
+.page__hero .page__hero-inner {
+  max-width: var(--page-width); /* 与正文最大宽度一致 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+}
+
+/* 2. 让图片在这个容器里水平居中 */
+.page__hero .page__hero-image {
+  display: block;
+  margin: 0 auto;
+  width: 30%;        /* 图片宽度充满容器 */
+  height: auto;
+  object-fit: contain;      /* 按比例缩放，完整显示 */
+  object-position: center;
+  max-height: 50vh;   /* 或根据需要自行调整 */
+  min-height: 300px;
+}
+
+/* 3. 调整 header 区域上下间距 */
+.page__hero {
+  margin-top: 1rem;     /* header 上方与菜单的间距，可按需增减 */
+  margin-bottom: 0rem;/* header 下方与文章的间距，可按需增减 */
+  }
+

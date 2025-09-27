@@ -24,10 +24,9 @@
 {% endif %}
 
 <div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
-<div class="footer-social">
+<div class="footer-social-right">
   <a href="https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318" target="_blank" rel="noopener">
-    <img src="/assets/aswebuild_red.jpg" alt="小红书同步更新" style="max-width:200px;">
+    <img src="/assets/aswebuild_red.jpg" alt="小红书同步更新" style="max-width:80px;">
+    <span style="margin-left:7px;">小红书同步更新</span>
   </a>
-  <span>小红书同步更新</span>
 </div>
-

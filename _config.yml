@@ -139,7 +139,7 @@ author:
       icon: "fas fa-book"  
       url: "https://linqreative.com"
     - label: "小红书"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fas fa-book"
       url: "https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"

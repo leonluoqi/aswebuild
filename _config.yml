@@ -136,8 +136,11 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "hello@aswebuild.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-book"  
       url: "https://linqreative.com"
+    - label: "小红书"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -152,11 +155,10 @@ author:
       # url: "https://www.instagram.com/linqreative/"
 
 # Sidebar
-sidebar:
-  - title: "小红书同步更新"
-    text: |
-      [![小红书账号](https://aswebuild.com/wp-content/uploads/2021/11/aswebuild_red.jpg)](https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318)
-      <br>
+# sidebar:
+#  - title: "小红书同步更新"
+#    text: |
+#      [![小红书账号](https://aswebuild.com/wp-content/uploads/2021/11/aswebuild_red.jpg)](https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318)
       
 
 
@@ -345,9 +347,6 @@ defaults:
       toc: true
       toc_sticky: true
       author_profile: true
-      sidebar:
-      - text: "小红书同步更新"
-      - text: '<a href="https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318)"><img src="/assets/aswebuild_red.jpg" alt="小红书同步更新" width="160" style="max-width:160px;" /></a>'
       read_time: true
       comments: # true
       share: true

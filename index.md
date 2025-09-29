@@ -1,6 +1,6 @@
 ---
 layout: home                 # 使用 Minimal Mistakes 的主页布局
-title: "北美小生意经. 一起学习，一起创业。"
+title: "北美小生意经"
 author_profile: true         # 显示作者简介（可选）
 pagination:
   enabled: true

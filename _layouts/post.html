@@ -38,7 +38,7 @@
 <p class="p1"><span class="s1">{% if page.toc %}</span></p>
 <p class="p4"><span class="s1"><b>{{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</b></span></p>
 <p class="p1"><span class="s1">{% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}</span></p>
-<p class="p1"><span class="s1">{% endif %} {{ content }} {% if page.link %}</span></p>
+<p class="p1"><span class="s1">{% endif %} {{ content }} {% include google-ads.html %}{% if page.link %}</span></p>
 <p class="p5"><span class="s2"><a href="file:///Users/qiluo/Downloads/minimal-mistakes-master/_layouts/%7B%7B%20page.link%20%7D%7D">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}<span class="s3"></span></a></span></p>
 <p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p1"><span class="s1">{% if site.data.ui-text[site.locale].meta_label %}</span></p>

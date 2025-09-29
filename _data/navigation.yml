@@ -1,5 +1,9 @@
 # main links
 main:
+  - title: "女性创业"
+    url: /女性创业/
+  - title: "创业案例"
+    url: /%e5%8c%97%e7%be%8e%e5%88%9b%e4%b8%9a%e6%a1%88%e4%be%8b/
   - title: "电商指南"
     url: /%e5%8c%97%e7%be%8e%e7%94%b5%e5%95%86%e6%8c%87%e5%8d%97/
   - title: "进口指南"
@@ -12,7 +16,5 @@ main:
     url: /%e5%88%9b%e4%b8%9a%e8%b5%84%e6%ba%90%e6%8e%a8%e8%8d%90/
   - title: "工具推荐"
     url: /affiliate/
-  - title: "创业案例"
-    url: /%e5%8c%97%e7%be%8e%e5%88%9b%e4%b8%9a%e6%a1%88%e4%be%8b/
   - title: "归档"
     url: /archive/

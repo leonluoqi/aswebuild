@@ -1,8 +1,5 @@
-版权声明
+Copyright Notice
+Copyright © 2018-2025 linQreative. All rights reserved.
 
-版权所有 © 2018-2025 linQreative 。保留所有权利。
-
-许可协议
-
-本项目中的内容未经本人/本团队书面许可，禁止以任何形式转载、复制、商用或用于其他项目。详情请见 LICENSE 文件。
-
+License Agreement
+The contents of this project may not be reproduced, copied, used for commercial purposes, or used in other projects in any form without the prior written permission of me/us. For details, please refer to the LICENSE file.

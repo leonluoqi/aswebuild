@@ -1,23 +1,24 @@
-<!-- As We Build 邮箱订阅组件 -->
-<div style="margin-top: 2.5em; padding: 1.6em 1.8em; background-color: #f8f9fa; border: 1px solid #e5e7eb; border-left: 4px solid #000000; border-radius: 6px;">
-  <h3 style="margin-top: 0; margin-bottom: 0.4em; font-size: 1.15em; font-weight: 700; color: #111111;">订阅 As We Build</h3>
-  <p style="font-size: 0.9em; margin-bottom: 1.2em; color: #555555; line-height: 1.5;">
-    第一时间获取北美轻资产创业、商业模式拆解与实战案例。
+<!-- Substack 极简原生订阅组件 -->
+<div style="margin: 3.5em auto 2em auto; padding: 2em 1em 1em 1em; max-width: 580px; text-align: center; border-top: 1px solid #eee;">
+  <!-- 居中柔和文案（可自行微调文字） -->
+  <p style="font-family: Georgia, 'Songti SC', 'Source Han Serif SC', serif; font-size: 1.12em; line-height: 1.65; color: #2d3748; margin-bottom: 1.6em; font-weight: 500;">
+    感谢阅读 As We Build！欢迎免费订阅，第一时间获取北美商业拆解与实战案例。
   </p>
-  
-  <form action="https://submit-form.com/kxienKoQo" method="POST" style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+  <!-- 居中一体化无缝输入框 -->
+  <form action="https://submit-form.com/kxienKoQo" method="POST" style="display: flex; justify-content: center; max-width: 460px; margin: 0 auto; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
     <!-- Formspark 防垃圾蜜罐 -->
     <input type="checkbox" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
     
-    <!-- 邮箱输入框 -->
-    <input type="email" name="email" placeholder="输入你的常用邮箱..." required 
-           style="flex: 1; min-width: 220px; padding: 10px 14px; background: #ffffff; border: 1px solid #d1d5db; border-radius: 4px; font-size: 0.9em; color: #111827; outline: none;" />
+    <!-- 左侧输入框（浅灰底色，左圆角，右侧与按钮无缝贴合） -->
+    <input type="email" name="email" placeholder="hello@aswebuild.com" required 
+           style="flex: 1; min-width: 0; padding: 11px 16px; background-color: #f1f3f5; border: 1px solid #dcdfe6; border-right: none; border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 0; border-bottom-right-radius: 0; font-size: 15px; color: #1a202c; outline: none;" />
     
-    <!-- #ff6600 品牌橙色按钮 -->
+    <!-- 右侧按钮（复刻 Substack 蓝紫色，右圆角） -->
     <button type="submit" 
-            style="margin: 0; padding: 10px 14px; background-color: #ff6600; color: #ffffff; font-weight: 600; font-size: 0.7em; border: none; border-radius: 4px; cursor: pointer; transition: opacity 0.2s;"
-            onmouseover="this.style.opacity='0.88'" onmouseout="this.style.opacity='1'">
-      立即订阅
+            style="padding: 11px 22px; background-color: #ff6600; color: #ffffff; border: 1px solid #ff6600; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-top-left-radius: 0; border-bottom-left-radius: 0; font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background-color 0.2s;"
+            onmouseover="this.style.backgroundColor='#4752c4'" onmouseout="this.style.backgroundColor='#5865F2'">
+      Subscribe
     </button>
   </form>
 </div>

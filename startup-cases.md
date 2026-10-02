@@ -1,11 +1,8 @@
 ---
-layout: page
-permalink: /北美创业案例/
+layout: single
 title: "北美创业案例"
-description: "北美与加拿大创业案例精选合集"
-date: 2023-05-01 12:12:03 -0000
-last_modified_at: 2026-10-02 16:30:00 -0000
-publish: true
+permalink: /北美创业案例/
+author_profile: true
 ---
 
 {% assign matched_posts = "" | split: "" %}
@@ -20,7 +17,7 @@ publish: true
 
 <ul>
 {% for post in matched_posts %}
-  <li style="margin-bottom: 8px;">
+  <li style="margin-bottom: 10px; line-height: 1.6;">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span style="font-size: 0.85em; color: #888; margin-left: 8px;">({{ post.date | date: "%Y-%m-%d" }})</span>
   </li>

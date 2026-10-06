@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>加拿大新移民创业实操全景交互流程图 - As We Build</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f9fafb; color: #111827; padding: 24px 16px; }
+    .container { max-width: 960px; margin: 0 auto; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); padding: 32px 24px; border: 1px solid #e5e7eb; }
+    header { text-align: center; margin-bottom: 28px; }
+    header h1 { font-size: 1.6rem; color: #111827; margin-bottom: 8px; font-weight: 700; }
+    header p { color: #6b7280; font-size: 0.95rem; }
+    .badge { display: inline-block; background: #fff7ed; color: #ff6600; border: 1px solid #fed7aa; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; margin-bottom: 8px; }
+    
+    /* 顶部进度条与阶段切换标签 */
+    .tabs-nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 24px; border-bottom: 1px solid #f3f4f6; scrollbar-width: none; }
+    .tab-btn { flex: 1; min-width: 140px; padding: 12px 10px; background: #f3f4f6; border: 2px solid transparent; border-radius: 8px; cursor: pointer; text-align: left; transition: all 0.2s ease; outline: none; }
+    .tab-btn:hover { background: #e5e7eb; }
+    .tab-btn.active { background: #ffffff; border-color: #ff6600; box-shadow: 0 2px 8px rgba(255, 102, 0, 0.12); }
+    .tab-btn .step-num { font-size: 0.75rem; font-weight: 700; color: #ff6600; text-transform: uppercase; margin-bottom: 2px; }
+    .tab-btn .step-title { font-size: 0.9rem; font-weight: 600; color: #1f2937; }
+
+    /* 内容展示区卡片 */
+    .content-box { display: grid; grid-template-columns: 3fr 2fr; gap: 24px; }
+    @media (max-width: 768px) { .content-box { grid-template-columns: 1fr; } }
+    
+    .main-col { background: #fafafa; border: 1px solid #e5e7eb; border-radius: 8px; padding: 20px; }
+    .side-col { display: flex; flex-direction: column; gap: 16px; }
+    
+    .panel-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; color: #111; }
+    .action-item { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 12px 14px; margin-bottom: 12px; }
+    .action-item strong { display: block; font-size: 0.95rem; color: #1f2937; margin-bottom: 4px; }
+    .action-item p { font-size: 0.88rem; color: #4b5563; line-height: 1.5; }
+    
+    .card { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
+    .card.warning { border-left: 4px solid #ef4444; background: #fffaf0; }
+    .card.resources { border-left: 4px solid #10b981; }
+    .card-title { font-size: 0.92rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+    .card p, .card ul { font-size: 0.85rem; color: #4b5563; line-height: 1.6; }
+    .card ul { padding-left: 18px; margin-top: 6px; }
+    
+    /* 底部导航按钮 */
+    .controls { display: flex; justify-content: space-between; margin-top: 24px; padding-top: 16px; border-top: 1px solid #f3f4f6; }
+    .nav-arrow-btn { padding: 8px 18px; border: 1px solid #d1d5db; background: #ffffff; border-radius: 6px; font-size: 0.88rem; font-weight: 600; cursor: pointer; color: #374151; transition: all 0.15s; }
+    .nav-arrow-btn:hover:not(:disabled) { border-color: #ff6600; color: #ff6600; }
+    .nav-arrow-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <span class="badge">As We Build · 实战实盘工具</span>
+    <h1>加拿大新移民创业实操全景流程图</h1>
+    <p>点击各阶段，查看大温哥华与加拿大本土真实落地的核心动作与避坑红线</p>
+  </header>
+
+  <!-- 阶段切换导航 -->
+  <div class="tabs-nav" id="tabsNav"></div>
+
+  <!-- 内容卡片 -->
+  <div class="content-box">
+    <div class="main-col">
+      <div class="panel-title" id="stageHeading">阶段内容</div>
+      <div id="actionList"></div>
+    </div>
+    
+    <div class="side-col">
+      <div class="card resources">
+        <div class="card-title">🇨🇦 对应官方机构与落地工具</div>
+        <ul id="resourceList"></ul>
+      </div>
+
+      <div class="card warning">
+        <div class="card-title" style="color: #b91c1c;">⚠️ 避坑红线 & 盲区提醒</div>
+        <p id="riskTip"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 前后导航 -->
+  <div class="controls">
+    <button class="nav-arrow-btn" id="prevBtn" onclick="changeStage(-1)">← 上一阶段</button>
+    <button class="nav-arrow-btn" id="nextBtn" onclick="changeStage(1)">下一阶段 →</button>
+  </div>
+</div>
+
+<script>
+const stages = [
+  {
+    id: 1,
+    tag: "阶段一",
+    title: "模式选择与公司注册",
+    actions: [
+      { t: "1. 确定商业主体形式", d: "低风险自雇（Sole Proprietorship）起步快；有隔离个人资产或雇佣计划，建议注册联邦有限公司（Corporation）。" },
+      { t: "2. 拒绝昂贵中介，官网直申", d: "直接访问 ic.gc.ca 官网，216 加元即可完成联邦公司线上注册，核准速度快且省去几千中介费。" },
+      { t: "3. 警惕‘重资产加盟’陷阱", d: "许多移民急于买店或加盟奶茶/便利店，受困于长租约与加元人工成本。起步首选轻资产和长尾利基模式。" }
+    ],
+    resources: ["Corporations Canada (ic.gc.ca) 官方直申", "Small Business BC (免费创业指导/核名通道)", "BC Registry Services 卑诗省注册系统"],
+    riskTip: "不要在还没有跑通第一笔现金流前盲目签订 3-5 年商业门面租约或大额买断加盟协议。"
+  },
+  {
+    id: 2,
+    tag: "阶段二",
+    title: "财税开户与合规防线",
+    actions: [
+      { t: "1. 建立商业账户隔离", d: "前往本地银行开立商业账户（Business Account），个人收支与商业流水严格分离，备齐 Incorporation Certificate。" },
+      { t: "2. 开通 CRA 税号（BN & GST/PST）", d: "年营收预计超 3 万加元必须开通 GST/HST 账户。牢记所有商业支出凭证（ITC 进项税抵扣），自雇申报截止日为 6 月 15 日（欠税款需 4 月 30 日前付清）。" },
+      { t: "3. 跨境货运备案 CARM 系统", d: "若涉及美加或中国货运进出口，必须通过 CBSA 的 CARM 门户注册进口商账号，避免清关滞留巨额罚款。" }
+    ],
+    resources: ["CRA 商业账户注册门户 (My Business Account)", "CBSA CARM Client Portal 关税与清关系统", "Canada Tariff Finder (CUSMA关税核查)"],
+    riskTip: "不要用个人小票和私人转账混同做生意，CRA 查税对没有规范凭证的现金账目零容忍。"
+  },
+  {
+    id: 3,
+    tag: "阶段三",
+    title: "资金杠杆与三层借力",
+    actions: [
+      { t: "1. 纠正‘纯政府白送补助’误区", d: "加拿大扶持体系核心是‘贷款（Loans）’而非无条件补助。起步没有流水时，不要盲目花时间写无法核准的纯补助申请。" },
+      { t: "2. 运用起步期专项扶持", d: "18-39 岁青年利用 Futurpreneur（最高 7.5 万无抵押贷款 + 导师绑定）；女性创业者可对标 WeBC 专项支持。" },
+      { t: "3. 成熟期借力 CSBFP 扩规", d: "有合规流水后，通过商业银行申请 CSBFP（联邦政府担保 85%），将开支拆分为数字化开发与设备采购借力。" }
+    ],
+    resources: ["Futurpreneur Canada (青年无抵押专项)", "WeBC (BC省女性创业扶持基金)", "CSBFP 加拿大小型企业融资计划 (五大行办理)"],
+    riskTip: "切忌一次性掏空全部积蓄用于铺货！政策融资需提前 3-6 个月布局商业计划书。"
+  },
+  {
+    id: 4,
+    tag: "阶段四",
+    title: "客户获取与破冰交付",
+    actions: [
+      { t: "1. 打通冷邮件（Cold Email）三阶法", d: "克服英语交流障碍，不发群发广告。以‘阶段性成果对赌（不达标退款）’的小切口切入本地西人企业客户。" },
+      { t: "2. 个人主页就是 24 小时销售落地页", d: "把 LinkedIn / 网站的 About 板块改造为解决客户问题的 Landing Page，突出真实交付物证而非空洞简历。" },
+      { t: "3. 服务‘产品化’摆脱体力内耗", d: "手艺人与咨询顾问拒绝单纯按小时卖时间，打包标准化服务流程与固定套餐，线上日历自动锁单。" }
+    ],
+    resources: ["Stripe / Square (本地即时收款与订阅)", "Calendly (自动化预约与时间管理)", "LinkedIn Sales Navigator (北美精准人脉挖掘)"],
+    riskTip: "不要只在熟人华人群体打价格内卷，尽快建立自己的西人本地商业信誉与公开案例集。"
+  },
+  {
+    id: 5,
+    tag: "阶段五",
+    title: "AI-First 运营与资产沉淀",
+    actions: [
+      { t: "1. 单兵作战的 80/20 分诊体系", d: "将 80% 的票据 OCR 归档、预约日历联动、客户初筛交给自动化工作流，创始人只把关核心 20% 交付与决策。" },
+      { t: "2. 自动化工具链打通", d: "用 QuickBooks/Wave 自动抓取银行收支对账，Zapier/Make 串联客户表单与 CRM，减少高昂本地外包雇用成本。" },
+      { t: "3. 从第一天起沉淀 SOP", d: "建立标准交付手册，让生意逐步摆脱创始人个人时间的绑定，打造未来具备可转让估值的独立商业资产。" }
+    ],
+    resources: ["QuickBooks / Wave Accounting 财税管理", "Zapier / Make (轻量无代码自动化工具)", "Substack (去算法化私域与创始人长信沉淀)"],
+    riskTip: "单兵创业最忌‘被杂活淹没’。没有 SOP 的生意只是高级打工，无法形成可规模化复利的资产。"
+  }
+];
+
+let curIdx = 0;
+
+function render() {
+  const nav = document.getElementById("tabsNav");
+  nav.innerHTML = stages.map((s, i) => `
+    <button class="tab-btn ${i === curIdx ? 'active' : ''}" onclick="selectStage(${i})">
+      <div class="step-num">${s.tag}</div>
+      <div class="step-title">${s.title}</div>
+    </button>
+  `).join("");
+
+  const data = stages[curIdx];
+  document.getElementById("stageHeading").innerText = `${data.tag} · ${data.title}`;
+  document.getElementById("actionList").innerHTML = data.actions.map(a => `
+    <div class="action-item">
+      <strong>${a.t}</strong>
+      <p>${a.d}</p>
+    </div>
+  `).join("");
+
+  document.getElementById("resourceList").innerHTML = data.resources.map(r => `<li>${r}</li>`).join("");
+  document.getElementById("riskTip").innerText = data.riskTip;
+
+  document.getElementById("prevBtn").disabled = (curIdx === 0);
+  document.getElementById("nextBtn").disabled = (curIdx === stages.length - 1);
+}
+
+function selectStage(i) {
+  curIdx = i;
+  render();
+}
+
+function changeStage(delta) {
+  curIdx = Math.max(0, Math.min(stages.length - 1, curIdx + delta));
+  render();
+}
+
+render();
+</script>
+</body>
+</html>

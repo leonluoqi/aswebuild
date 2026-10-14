@@ -2,9 +2,35 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<!-- 预加载本地超轻量英文字体（合计不足 90KB，秒开） -->
-<link rel="preload" href="{{ '/assets/fonts/Inter-Light.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/fonts/Newsreader-Light.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ '/assets/fonts/JetBrainsMono-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var innerWrap = document.querySelector(".layout--single .page__inner-wrap");
+  var header = innerWrap ? innerWrap.querySelector("header") : null;
+  var heroImg = document.querySelector(".layout--single .page__hero-image");
+  var rightSidebar = document.querySelector(".layout--single .sidebar__right");
+
+  if (innerWrap && header) {
+    // 如果该文章没有目录但有头图，也创建一个右侧栏容器放头图
+    if (!rightSidebar && heroImg) {
+      rightSidebar = document.createElement("aside");
+      rightSidebar.className = "sidebar__right";
+    }
+    if (rightSidebar) {
+      // 1. 将右侧栏提到 header 之前，确保其顶部与正文大标题 100% 齐平
+      innerWrap.insertBefore(rightSidebar, header);
+
+      // 2. 将正文大图放进右侧栏的最上方（即“目录”正上方）
+      if (heroImg && !rightSidebar.querySelector(".toc-top-image")) {
+        var imgWrap = document.createElement("div");
+        imgWrap.className = "toc-top-image";
+        var clonedImg = heroImg.cloneNode(true);
+        clonedImg.removeAttribute("style");
+        imgWrap.appendChild(clonedImg);
+        rightSidebar.insertBefore(imgWrap, rightSidebar.firstChild);
+      }
+    }
+  }
+});
+</script>
 
 <!-- end custom head snippets -->

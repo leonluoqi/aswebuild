@@ -1,11 +1,83 @@
 ---
 ---
 @charset "utf-8";
+
+/* ==========================================================================
+   第一部分：本地字体注册（放在 @import 之前）
+   注：即使你暂时还没把 .woff2 字体文件放进 assets/fonts/，
+   浏览器也会自动丝滑降级使用下方的系统原生字体，绝不会报错或卡顿。
+   ========================================================================== */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Inter-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Newsreader-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+/* 【可选】如果你把霞鹜文楷 LXGWWenKaiScreen.woff2 放进了 assets/fonts/，取消下面这段注释： */
+/*
+@font-face {
+  font-family: 'LXGW WenKai Screen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/LXGWWenKaiScreen.woff2') format('woff2');
+}
+*/
+
+/* ==========================================================================
+   第二部分：覆盖 Minimal Mistakes 底层颜色与中英文字体变量（必须在 @import 之前）
+   ========================================================================== */
+$background-color: #F9F9F8;          // LinQreative 米白纸张底色
+$text-color: #1F1F1F;                // 炭灰主墨色（替代刺眼纯黑）
+$muted-text-color: #6E6E6A;          // 低饱和次要灰
+$primary-color: #1F1F1F;             // 强调色统一为墨色，去除默认蓝色调
+$border-color: #E5E5E0;              // 1px 浅灰分割线颜色
+$link-color: #1F1F1F;
+$link-color-hover: #6E6E6A;
+
+// 👉 字体搭配方案 A（默认开启：0延迟，英文用本地字体 + 中文直接唤醒系统原生宋体/细黑体）
+$sans-serif: 'Inter', "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$serif: 'Newsreader', "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC", "SimSun", serif;
+$monospace: 'JetBrains Mono', "PingFang SC", monospace;
+
+// 👉 字体搭配方案 B（若想用本地霞鹜文楷，把上面 3 行注释掉，取消下面 3 行注释即可）：
+// $sans-serif: 'Inter', 'LXGW WenKai Screen', "PingFang SC", sans-serif;
+// $serif: 'Newsreader', 'LXGW WenKai Screen', "Songti SC", serif;
+// $monospace: 'JetBrains Mono', "PingFang SC", monospace;
+
+// 取消全局圆角与卡片阴影，对齐刊物利落切线
+$border-radius: 0px;
+$box-shadow: none;
+
+
+/* ==========================================================================
+   第三部分：引入 Minimal Mistakes 核心主题文件（保持不变）
+   ========================================================================== */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 
-
+/* ==========================================================================
+   第四部分：保留你原有的 .page__hero 文章头图居中与尺寸控制
+   ========================================================================== */
 
 /* 1. 限制 .page__hero-inner 宽度与正文一致，并居中 */
 .page__hero .page__hero-inner {
@@ -31,6 +103,50 @@
 /* 3. 调整 header 区域上下间距 */
 .page__hero {
   margin-top: 1rem;     /* header 上方与菜单的间距，可按需增减 */
-  margin-bottom: 0rem;/* header 下方与文章的间距，可按需增减 */
-  }
+  margin-bottom: 0rem;  /* header 下方与文章的间距，可按需增减 */
+  background-color: #F9F9F8; /* 让头图两侧留白区域也融入米白纸张底色 */
+  border-bottom: 1px solid #E5E5E0; /* 头图下方加一条 1px 刊物细分割线 */
+}
 
+
+/* ==========================================================================
+   第五部分：LinQreative 极简刊物风深度重构样式
+   ========================================================================== */
+
+:root {
+  --paper: #F9F9F8;
+  --ink: #1F1F1F;
+  --muted: #6E6E6A;
+  --line: #E5E5E0;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: $sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* A. 顶部导航栏与左侧常驻边栏（1px 建筑感网格分割） */
+.masthead {
+  background-color: var(--paper);
+  border-bottom: 1px solid var(--line);
+
+  &__inner-wrap {
+    padding: 1.25rem 2rem;
+    font-family: $monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: var(--muted);
+    font-weight: 400;
+    &:hover {

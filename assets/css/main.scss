@@ -2,15 +2,10 @@
 ---
 @charset "utf-8";
 
-/* ==========================================================================
-   第一部分：本地字体注册（放在 @import 之前）
-   注：即使你暂时还没把 .woff2 字体文件放进 assets/fonts/，
-   浏览器也会自动丝滑降级使用下方的系统原生字体，绝不会报错或卡顿。
-   ========================================================================== */
 @font-face {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-display: swap;
   src: url('../fonts/Inter-Light.woff2') format('woff2');
 }
@@ -18,7 +13,7 @@
 @font-face {
   font-family: 'Newsreader';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-display: swap;
   src: url('../fonts/Newsreader-Light.woff2') format('woff2');
 }
@@ -31,364 +26,401 @@
   src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 
-/* 【可选】如果你把霞鹜文楷 LXGWWenKaiScreen.woff2 放进了 assets/fonts/，取消下面这段注释： */
-/*
-@font-face {
-  font-family: 'LXGW WenKai Screen';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/LXGWWenKaiScreen.woff2') format('woff2');
-}
-*/
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
 /* ==========================================================================
-   第二部分：覆盖 Minimal Mistakes 底层颜色与中英文字体变量（必须在 @import 之前）
+   保留原有的文章头图 (.page__hero) 居中控制
    ========================================================================== */
-$background-color: #F9F9F8;          // LinQreative 米白纸张底色
-$text-color: #1F1F1F;                // 炭灰主墨色（替代刺眼纯黑）
-$muted-text-color: #6E6E6A;          // 低饱和次要灰
-$primary-color: #1F1F1F;             // 强调色统一为墨色，去除默认蓝色调
-$border-color: #E5E5E0;              // 1px 浅灰分割线颜色
-$link-color: #1F1F1F;
-$link-color-hover: #6E6E6A;
-
-// 👉 字体搭配方案 A（默认开启：0延迟，英文用本地字体 + 中文直接唤醒系统原生宋体/细黑体）
-$sans-serif: 'Inter', "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
-$serif: 'Newsreader', "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC", "SimSun", serif;
-$monospace: 'JetBrains Mono', "PingFang SC", monospace;
-
-// 👉 字体搭配方案 B（若想用本地霞鹜文楷，把上面 3 行注释掉，取消下面 3 行注释即可）：
-// $sans-serif: 'Inter', 'LXGW WenKai Screen', "PingFang SC", sans-serif;
-// $serif: 'Newsreader', 'LXGW WenKai Screen', "Songti SC", serif;
-// $monospace: 'JetBrains Mono', "PingFang SC", monospace;
-
-// 取消全局圆角与卡片阴影，对齐刊物利落切线
-$border-radius: 0px;
-$box-shadow: none;
-
-
-/* ==========================================================================
-   第三部分：引入 Minimal Mistakes 核心主题文件（保持不变）
-   ========================================================================== */
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-
-/* ==========================================================================
-   第四部分：保留你原有的 .page__hero 文章头图居中与尺寸控制
-   ========================================================================== */
-
-/* 1. 限制 .page__hero-inner 宽度与正文一致，并居中 */
 .page__hero .page__hero-inner {
-  max-width: var(--page-width); /* 与正文最大宽度一致 */
+  max-width: var(--page-width);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--page-gutter);
   padding-right: var(--page-gutter);
 }
 
-/* 2. 让图片在这个容器里水平居中 */
 .page__hero .page__hero-image {
   display: block;
   margin: 0 auto;
-  width: 30%;        /* 图片宽度充满容器 */
+  width: 30%;
   height: auto;
-  object-fit: contain;      /* 按比例缩放，完整显示 */
+  object-fit: contain;
   object-position: center;
-  max-height: 50vh;   /* 或根据需要自行调整 */
+  max-height: 50vh;
   min-height: 300px;
 }
 
-/* 3. 调整 header 区域上下间距 */
 .page__hero {
-  margin-top: 1rem;     /* header 上方与菜单的间距，可按需增减 */
-  margin-bottom: 0rem;  /* header 下方与文章的间距，可按需增减 */
-  background-color: #F9F9F8; /* 让头图两侧留白区域也融入米白纸张底色 */
-  border-bottom: 1px solid #E5E5E0; /* 头图下方加一条 1px 刊物细分割线 */
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  background-color: #F9F9F8 !important;
+  border-bottom: 1px solid #DCDCD6 !important;
 }
 
-
 /* ==========================================================================
-   第五部分：LinQreative 极简刊物风深度重构样式
+   高清晰度、宽敞舒展刊物风样式
    ========================================================================== */
 
 :root {
-  --paper: #F9F9F8;
-  --ink: #1F1F1F;
-  --muted: #6E6E6A;
-  --line: #E5E5E0;
+  --paper: #F9F9F8;       /* 柔和纸张米白底色 */
+  --ink: #141413;         /* 深墨黑：主文字与标题，清晰高对比 */
+  --sub-ink: #333330;     /* 深炭灰：次要文字、目录、菜单，不再发浅发虚 */
+  --line: #DCDCD6;        /* 清晰的分割细线 */
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-serif: "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC", Georgia, serif;
 }
 
-body {
-  background-color: var(--paper);
-  color: var(--ink);
-  font-family: $sans-serif;
-  font-weight: 300;
-  line-height: 1.75;
+/* 1. 全局背景与高清晰度基础文字（字重改为 400 标准粗细） */
+html, body, .initial-content, #main, .page__footer {
+  background-color: var(--paper) !important;
+  color: var(--ink) !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 400 !important;
   -webkit-font-smoothing: antialiased;
 }
 
-/* A. 顶部导航栏与左侧常驻边栏（1px 建筑感网格分割） */
+/* 2. 顶部导航栏：调大菜单字号、加深颜色 */
+.masthead, .greedy-nav {
+  background-color: var(--paper) !important;
+}
+
 .masthead {
-  background-color: var(--paper);
-  border-bottom: 1px solid var(--line);
-
-  &__inner-wrap {
-    padding: 1.25rem 2rem;
-    font-family: $monospace;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-  }
+  border-bottom: 1px solid var(--line) !important;
 }
 
-.greedy-nav {
-  background: transparent;
-
-  a {
-    color: var(--muted);
-    font-weight: 400;
-    &:hover {
-      color: var(--ink);
-    }
-  }
-
-  .site-title {
-    font-family: $sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0.15em;
-    color: var(--ink);
-  }
-
-  .visible-links a:before {
-    background: var(--ink);
-    height: 1px;
-  }
+.masthead__inner-wrap {
+  max-width: 1560px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+  padding: 1rem 0 !important;
 }
 
+/* 左上角 AsWeBuild 站名调大 */
+.greedy-nav .site-title {
+  font-family: var(--font-sans) !important;
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  color: var(--ink) !important;
+}
+
+/* 顶部右侧导航菜单（女性创业、创业案例、归档）调大至 16px 并加深 */
+.greedy-nav .visible-links a {
+  font-family: var(--font-sans) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em !important;
+  color: var(--ink) !important;
+  margin: 0 1.2rem !important;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #000000 !important;
+}
+
+.greedy-nav .visible-links a:before {
+  background: var(--ink) !important;
+  height: 2px !important;
+}
+
+/* 3. 全局版面拓宽与三栏舒展布局（目录紧贴最右侧，解放中间正文） */
 @media (min-width: 64em) {
   #main {
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    align-items: stretch;
+    max-width: 1560px !important;
+    width: 95% !important;
+    margin: 2rem auto 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
+  /* 左侧边栏：固定紧凑宽度 */
   .sidebar {
-    width: max(22vw, 260px);
-    float: none;
-    margin: 0;
-    padding: 3rem 2.5rem;
-    opacity: 1 !important; /* 移除默认半透明弱化效果 */
-    position: sticky;
-    top: 0;
-    height: fit-content;
+    width: 210px !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0.5rem 1.25rem 2rem 0 !important;
+    opacity: 1 !important;
   }
 
-  .archive,
+  /* 首页与列表页主区域 */
+  .archive {
+    width: calc(100% - 210px) !important;
+    float: right !important;
+    padding-left: 3.5rem !important;
+    padding-right: 2rem !important;
+    border-left: 1px solid var(--line) !important;
+  }
+
+  /* 文章内页主区域：右侧预留 230px 给贴边目录，中间全部留给正文 */
   .page {
-    float: none;
-    width: calc(100% - max(22vw, 260px));
-    padding: 3rem 4rem;
-    margin: 0;
-    border-left: 1px solid var(--line); /* 右侧主内容区左侧 1px 贯穿竖线 */
+    width: calc(100% - 210px) !important;
+    float: right !important;
+    padding-left: 3.5rem !important;
+    padding-right: 235px !important;
+    border-left: 1px solid var(--line) !important;
+  }
+
+  .page__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 让文章目录紧靠页面最右边边缘，绝不挤压正文 */
+  .sidebar__right {
+    width: 210px !important;
+    margin-right: -235px !important;
+    padding-left: 1.25rem !important;
+    float: right !important;
+    position: sticky !important;
+    top: 2rem !important;
+    right: 0 !important;
   }
 }
 
-/* 左侧作者栏去圆角、去彩色图标 */
-.author__avatar img {
-  border-radius: 0;
-  border: 1px solid var(--line);
-  padding: 0;
-}
-
-.author__name {
-  font-family: $serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  color: var(--ink);
-}
-
-.author__bio {
-  font-size: 12px;
-  line-height: 1.65;
-  color: var(--muted);
-}
-
+/* 4. 左侧边栏菜单：字号调大到 15px，颜色加深 */
 .author__urls-wrapper {
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+  font-family: var(--font-sans) !important;
 }
 
-/* B. 首页与归档文章列表（1px 横向索引分割） */
-.archive__subtitle {
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: var(--muted);
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 1rem;
-  margin-bottom: 0;
+.author__urls li i,
+.author__urls li .fas,
+.author__urls li .fab,
+.author__urls li .far,
+.author__urls li .fa {
+  display: none !important;
 }
 
-.list__item {
-  padding: 0;
-  margin: 0;
-
-  .archive__item {
-    padding: 2rem 0.75rem;
-    border-bottom: 1px solid var(--line);
-    transition: background-color 0.2s ease;
-
-    &:hover {
-      background-color: rgba(31, 31, 31, 0.02);
-    }
-  }
-
-  .archive__item-title {
-    margin-top: 0;
-    margin-bottom: 0.4rem;
-    font-family: $serif; /* 文章标题采用刊物衬线/宋体 */
-    font-size: 1.25rem;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.45;
-    color: var(--ink);
-
-    a {
-      text-decoration: none;
-      color: var(--ink);
-      &:hover {
-        color: var(--muted);
-      }
-    }
-  }
-
-  .archive__item-excerpt {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.75;
-    color: var(--muted);
-  }
+.author__urls li {
+  margin-bottom: 0.85rem !important;
 }
 
-/* C. 文章正文页（报刊级大标题与正文排版） */
-.page__title {
-  font-family: $serif;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 1.35;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  margin-bottom: 1.25rem;
+.author__urls li a {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: var(--sub-ink) !important;
+  text-decoration: none !important;
+  line-height: 1.5 !important;
 }
 
-.page__meta {
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--muted);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 0.65rem 0;
-  margin-bottom: 2rem;
+.author__urls li a:hover {
+  color: #000000 !important;
+  font-weight: 500 !important;
 }
 
-.page__content {
-  max-width: 68ch;
-  font-size: 15.5px;
-  font-weight: 300;
-  line-height: 1.85;
-  color: var(--ink);
-
-  h2, h3, h4 {
-    font-family: $serif;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    border-bottom: none;
-    margin-top: 2.25rem;
-  }
-
-  figure, p > img {
-    border: 1px solid var(--line);
-    border-radius: 0;
-    box-shadow: none;
-  }
-
-  figcaption {
-    font-family: $monospace;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    margin-top: 0.6rem;
-    font-style: normal;
-  }
-}
-
-/* D. 按钮、分类标签与页脚 */
-.btn {
-  border-radius: 0 !important;
-  border: 1px solid var(--ink) !important;
-  background-color: transparent !important;
+/* 5. 标题排版：清晰深墨色，去除粗乱下划线 */
+.page__title,
+.archive__item-title,
+.archive__item-title a,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  font-family: var(--font-serif) !important;
+  font-weight: 600 !important;
   color: var(--ink) !important;
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  box-shadow: none !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em !important;
+}
 
-  &:hover {
-    background-color: var(--ink) !important;
-    color: var(--paper) !important;
-  }
+.page__title {
+  font-size: 2.15rem !important;
+  line-height: 1.38 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.archive__item-title {
+  font-size: 1.45rem !important;
+  line-height: 1.45 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.archive__item-title a:hover {
+  color: #555550 !important;
+}
+
+.page__content h2 {
+  font-size: 1.5rem !important;
+  margin-top: 2.4rem !important;
+  margin-bottom: 1rem !important;
+  border-bottom: none !important;
+}
+
+.page__content h1 a,
+.page__content h2 a,
+.page__content h3 a,
+.page__content h4 a {
+  text-decoration: none !important;
+  color: var(--ink) !important;
+}
+
+.header-link {
+  display: none !important;
+}
+
+/* 6. 首页文章列表：加大间距与摘要清晰度 */
+.archive__subtitle {
+  font-family: var(--font-sans) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--ink) !important;
+  border-bottom: 1px solid var(--line) !important;
+  padding-bottom: 0.8rem !important;
+}
+
+.list__item .archive__item {
+  padding: 2.2rem 0 !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+
+.archive__item-excerpt {
+  font-family: var(--font-sans) !important;
+  font-size: 15.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  color: var(--sub-ink) !important;
+}
+
+/* 7. 文章正文：17px 舒展大字号 + 清晰深墨色 */
+.page__content p,
+.page__content li {
+  font-family: var(--font-sans) !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  line-height: 1.9 !important;
+  color: var(--ink) !important;
+  margin-bottom: 1.35em !important;
+}
+
+/* 8. 右侧“目录”：清晰深色字，紧贴右缘 */
+.toc {
+  background-color: transparent !important;
+  border: none !important;
+  border-left: 1.5px solid var(--line) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding-left: 1rem !important;
+}
+
+.toc .nav__title {
+  background: transparent !important;
+  color: var(--ink) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  padding: 0 0 0.6rem 0 !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+
+.toc .nav__title i {
+  display: none !important;
+}
+
+.toc__menu {
+  border: none !important;
+}
+
+.toc__menu li a {
+  font-family: var(--font-sans) !important;
+  font-size: 13.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: var(--sub-ink) !important;
+  border-bottom: none !important;
+  padding: 0.5rem 0 !important;
+}
+
+.toc__menu li a:hover,
+.toc__menu li.active a {
+  background: transparent !important;
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+/* 9. 文章尾部：分类、标签、日期全面加深放大，清晰可读 */
+.page__meta {
+  font-family: var(--font-sans) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: var(--sub-ink) !important;
+  border-top: 1px solid var(--line) !important;
+  padding-top: 1.25rem !important;
+  margin-top: 2.5rem !important;
+}
+
+.page__taxonomy {
+  margin-bottom: 0.75rem !important;
+}
+
+.page__taxonomy strong,
+.page__date strong {
+  color: var(--ink) !important;
+  font-weight: 600 !important;
 }
 
 .page__taxonomy-item {
-  border: 1px solid var(--line);
-  border-radius: 0;
-  padding: 2px 8px;
-  font-family: $monospace;
-  font-size: 11px;
-  color: var(--muted);
-
-  &:hover {
-    border-color: var(--ink);
-    color: var(--ink);
-  }
+  background-color: #FFFFFF !important;
+  border: 1px solid #BDBDB8 !important;
+  border-radius: 2px !important;
+  padding: 4px 10px !important;
+  margin-right: 6px !important;
+  margin-bottom: 6px !important;
+  font-family: var(--font-sans) !important;
+  font-size: 13.5px !important;
+  font-weight: 400 !important;
+  color: var(--ink) !important;
+  text-decoration: none !important;
 }
 
-.pagination--pager {
-  border-radius: 0;
-  border: 1px solid var(--line);
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--ink);
-  background: transparent;
-
-  &:hover {
-    background: var(--ink);
-    color: var(--paper);
-  }
+.page__taxonomy-item:hover {
+  background-color: var(--ink) !important;
+  border-color: var(--ink) !important;
+  color: #FFFFFF !important;
 }
 
-.page__footer {
-  background-color: var(--paper);
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-family: $monospace;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+/* 10. 首页订阅框去白底 */
+form {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+input[type="email"],
+input[type="text"] {
+  background-color: #FFFFFF !important;
+  border: 1px solid #BDBDB8 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  color: var(--ink) !important;
+}
+
+button[type="submit"],
+.btn {
+  background-color: var(--ink) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--ink) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-sans) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  box-shadow: none !important;
+}
+
+/* 11. 彻底隐藏“猜您还喜欢”、阅读时间与底部分享按钮 */
+.page__related,
+div.page__related,
+#main .page__related,
+.page__meta-readtime,
+.page__share {
+  display: none !important;
 }

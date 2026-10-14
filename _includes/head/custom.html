@@ -2,32 +2,102 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<style>
+  /* 1. 彻底隐藏正文题目上方的巨幅大图 */
+  .page__hero {
+    display: none !important;
+  }
+
+  /* 2. 右侧目录上方的图片：底部留出 24px 充足间距，绝不压住下方目录 */
+  .toc-top-image {
+    display: block !important;
+    margin-bottom: 24px !important;
+    padding: 6px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #DCDCD6 !important;
+    box-sizing: border-box !important;
+  }
+
+  .toc-top-image img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 240px !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+  }
+
+  /* 3. 消除标题与正文之间的巨大空白：让右侧栏脱离浮动流，顶部与大标题严格齐平 */
+  @media (min-width: 64em) {
+    .page__inner-wrap {
+      position: relative !important;
+    }
+
+    .page .page__title {
+      margin-top: 0 !important;
+      margin-bottom: 1.2rem !important;
+    }
+
+    .page .page__content {
+      clear: none !important;
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+
+    .sidebar__right {
+      position: absolute !important;
+      top: 0 !important;
+      right: -265px !important;
+      width: 240px !important;
+      float: none !important;
+      margin: 0 !important;
+      padding-left: 1.25rem !important;
+      z-index: 10 !important;
+    }
+  }
+
+  /* 4. 强制恢复左侧菜单栏小图标与对齐（防止浏览器缓存旧 CSS） */
+  .author__urls li i,
+  .author__urls li .fas,
+  .author__urls li .fab,
+  .author__urls li .far,
+  .author__urls li .fa {
+    display: inline-block !important;
+    width: 1.6em !important;
+    text-align: center !important;
+    margin-right: 6px !important;
+    color: #262626 !important;
+    font-size: 15px !important;
+  }
+</style>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var innerWrap = document.querySelector(".layout--single .page__inner-wrap");
-  var header = innerWrap ? innerWrap.querySelector("header") : null;
-  var heroImg = document.querySelector(".layout--single .page__hero-image");
-  var rightSidebar = document.querySelector(".layout--single .sidebar__right");
+  var hero = document.querySelector(".page__hero");
+  var heroImg = document.querySelector(".page__hero-image");
+  var innerWrap = document.querySelector(".page__inner-wrap");
+  var rightSidebar = document.querySelector(".sidebar__right");
 
-  if (innerWrap && header) {
-    // 如果该文章没有目录但有头图，也创建一个右侧栏容器放头图
+  // 1. 确保顶部巨幅头图彻底隐藏
+  if (hero) {
+    hero.style.setProperty("display", "none", "important");
+  }
+
+  // 2. 将头图复制进右侧“目录”正上方，并放在独立容器内
+  if (innerWrap && (rightSidebar || heroImg)) {
     if (!rightSidebar && heroImg) {
       rightSidebar = document.createElement("aside");
       rightSidebar.className = "sidebar__right";
+      innerWrap.appendChild(rightSidebar);
     }
-    if (rightSidebar) {
-      // 1. 将右侧栏提到 header 之前，确保其顶部与正文大标题 100% 齐平
-      innerWrap.insertBefore(rightSidebar, header);
 
-      // 2. 将正文大图放进右侧栏的最上方（即“目录”正上方）
-      if (heroImg && !rightSidebar.querySelector(".toc-top-image")) {
-        var imgWrap = document.createElement("div");
-        imgWrap.className = "toc-top-image";
-        var clonedImg = heroImg.cloneNode(true);
-        clonedImg.removeAttribute("style");
-        imgWrap.appendChild(clonedImg);
-        rightSidebar.insertBefore(imgWrap, rightSidebar.firstChild);
-      }
+    if (rightSidebar && heroImg && !rightSidebar.querySelector(".toc-top-image")) {
+      var imgWrap = document.createElement("div");
+      imgWrap.className = "toc-top-image";
+      var clonedImg = heroImg.cloneNode(true);
+      clonedImg.removeAttribute("style");
+      imgWrap.appendChild(clonedImg);
+      rightSidebar.insertBefore(imgWrap, rightSidebar.firstChild);
     }
   }
 });

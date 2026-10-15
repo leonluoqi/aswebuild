@@ -3,12 +3,80 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <style>
-  /* 1. 彻底隐藏正文题目上方的巨幅大图 */
+  /* 1. 彻底隐藏文章列表里的日期块（消灭撑开标题与摘要的元凶） */
+  .archive__item .page__meta,
+  .list__item .page__meta,
+  .entries-list .page__meta {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* 2. 严格实现“紧凑又清晰”的列表排版（全站首页与分类页通用） */
+  .entries-list,
+  .list__item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 砍掉多余空白：每篇文章上下内边距固定为紧凑的 14px，仅保留底部 1 条细分割线 */
+  .list__item .archive__item {
+    margin: 0 !important;
+    padding: 14px 8px !important;
+    border-top: none !important;
+    border-bottom: 1px solid #DCDCD6 !important;
+    transition: background-color 0.15s ease !important;
+  }
+
+  /* 桌面/平板端悬停导引：鼠标移上去浮现极淡暖灰底色 */
+  .list__item .archive__item:hover {
+    background-color: rgba(20, 20, 19, 0.03) !important;
+  }
+
+  /* 标题层级：19px 深墨黑 (#141413) + 半加粗，底部仅隔 5px */
+  .list__item .archive__item-title {
+    margin: 0 0 5px 0 !important;
+    padding: 0 !important;
+    font-family: "Songti SC", "STSong", "Source Han Serif SC", Georgia, serif !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    line-height: 1.38 !important;
+    color: #141413 !important;
+    border: none !important;
+  }
+
+  .list__item .archive__item-title a {
+    color: #141413 !important;
+    text-decoration: none !important;
+  }
+
+  .list__item .archive__item-title a:hover {
+    color: #555550 !important;
+  }
+
+  /* 摘要层级：紧贴标题下方，14.5px 中深灰 (#555552) + 无衬线体，最多显示 2 行 */
+  .list__item .archive__item-excerpt,
+  .list__item .archive__item-excerpt p {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-size: 14.5px !important;
+    font-weight: 400 !important;
+    line-height: 1.55 !important;
+    color: #555552 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+
+  /* 3. 文章内页处理：隐藏顶部巨幅大图，右侧图与目录齐平 */
   .page__hero {
     display: none !important;
   }
 
-  /* 2. 右侧目录上方的图片：底部留出 24px 充足间距，绝不压住下方目录 */
   .toc-top-image {
     display: block !important;
     margin-bottom: 24px !important;
@@ -27,23 +95,19 @@
     margin: 0 auto !important;
   }
 
-  /* 3. 消除标题与正文之间的巨大空白：让右侧栏脱离浮动流，顶部与大标题严格齐平 */
   @media (min-width: 64em) {
     .page__inner-wrap {
       position: relative !important;
     }
-
     .page .page__title {
       margin-top: 0 !important;
       margin-bottom: 1.2rem !important;
     }
-
     .page .page__content {
       clear: none !important;
       margin-top: 0 !important;
       padding-top: 0 !important;
     }
-
     .sidebar__right {
       position: absolute !important;
       top: 0 !important;
@@ -56,7 +120,7 @@
     }
   }
 
-  /* 4. 强制恢复左侧菜单栏小图标与对齐（防止浏览器缓存旧 CSS） */
+  /* 4. 恢复左侧菜单栏小图标与对齐 */
   .author__urls li i,
   .author__urls li .fas,
   .author__urls li .fab,
@@ -78,12 +142,10 @@ document.addEventListener("DOMContentLoaded", function() {
   var innerWrap = document.querySelector(".page__inner-wrap");
   var rightSidebar = document.querySelector(".sidebar__right");
 
-  // 1. 确保顶部巨幅头图彻底隐藏
   if (hero) {
     hero.style.setProperty("display", "none", "important");
   }
 
-  // 2. 将头图复制进右侧“目录”正上方，并放在独立容器内
   if (innerWrap && (rightSidebar || heroImg)) {
     if (!rightSidebar && heroImg) {
       rightSidebar = document.createElement("aside");

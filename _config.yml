@@ -360,21 +360,17 @@ compress_html:
 
 # Defaults
 defaults:
-  # 1. 新增：让全站所有独立页面（女性创业、创业案例、归档等）默认显示左边栏
-  - scope:
-      path: ""
-    values:
-      author_profile: true
-
-  # 2. 原有：所有文章 (_posts) 的默认配置
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
+      toc: true
+      toc_sticky: true
       author_profile: true
       read_time: false
       comments: false
       share: false
       related: false
-      show_date: false
+

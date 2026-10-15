@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /futurpreneur/
+author_profile: true
 title: Futurpreneur
 description: "Futurpreneur\u662F\u52A0\u62FF\u5927\u552F\u4E00\u4E00\u5BB6\u5E2E\u52A9\
   18-39\u5C81\u5E74\u8F7B\u4EBA\u521B\u4E1A\u8D37\u6B3E\u548C\u6307\u5BFC\u7684\u975E\

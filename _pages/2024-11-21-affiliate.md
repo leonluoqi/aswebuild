@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /affiliate/
+author_profile: true
 title: "\u5C0F\u751F\u610F\u76F8\u5173\u5DE5\u5177\u63A8\u8350"
 description: None
 date: 2024-11-21 17:50:34 -0000

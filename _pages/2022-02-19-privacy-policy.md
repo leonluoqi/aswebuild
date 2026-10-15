@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /privacy-policy/
+author_profile: true
 title: Privacy Policy
 description: None
 date: 2022-02-19 20:13:30 -0000

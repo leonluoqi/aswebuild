@@ -3,43 +3,44 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <style>
-  /* 1. 彻底隐藏文章列表里的日期块（消灭撑开标题与摘要的元凶） */
+  /* 1. 隐藏首页自动生成的默认大标题与“最新文章”副标题 */
+  .layout--home #page-title,
+  .layout--home .archive > .page__title,
+  .layout--home .archive__subtitle {
+    display: none !important;
+  }
+
+  /* 2. 隐藏文章列表里的日期块，消除标题与摘要之间的横线与空洞 */
   .archive__item .page__meta,
   .list__item .page__meta,
   .entries-list .page__meta {
     display: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
   }
 
-  /* 2. 严格实现“紧凑又清晰”的列表排版（全站首页与分类页通用） */
+  /* 3. 首页与分类页：紧凑文章列表样式（确保摘要正常显示） */
   .entries-list,
   .list__item {
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  /* 砍掉多余空白：每篇文章上下内边距固定为紧凑的 14px，仅保留底部 1 条细分割线 */
   .list__item .archive__item {
     margin: 0 !important;
-    padding: 14px 8px !important;
+    padding: 14px 6px !important;
     border-top: none !important;
     border-bottom: 1px solid #DCDCD6 !important;
     transition: background-color 0.15s ease !important;
   }
 
-  /* 桌面/平板端悬停导引：鼠标移上去浮现极淡暖灰底色 */
   .list__item .archive__item:hover {
-    background-color: rgba(20, 20, 19, 0.03) !important;
+    background-color: rgba(20, 20, 19, 0.025) !important;
   }
 
-  /* 标题层级：19px 深墨黑 (#141413) + 半加粗，底部仅隔 5px */
   .list__item .archive__item-title {
-    margin: 0 0 5px 0 !important;
+    margin: 0 0 6px 0 !important;
     padding: 0 !important;
     font-family: "Songti SC", "STSong", "Source Han Serif SC", Georgia, serif !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     font-weight: 600 !important;
     line-height: 1.38 !important;
     color: #141413 !important;
@@ -51,36 +52,33 @@
     text-decoration: none !important;
   }
 
-  .list__item .archive__item-title a:hover {
-    color: #555550 !important;
-  }
-
-  /* 摘要层级：紧贴标题下方，14.5px 中深灰 (#555552) + 无衬线体，最多显示 2 行 */
-  .list__item .archive__item-excerpt,
-  .list__item .archive__item-excerpt p {
+  .list__item .archive__item-excerpt {
+    display: block !important;
     margin: 0 !important;
     padding: 0 !important;
     border: none !important;
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif !important;
     font-size: 14.5px !important;
     font-weight: 400 !important;
-    line-height: 1.55 !important;
+    line-height: 1.6 !important;
     color: #555552 !important;
-    display: -webkit-box !important;
-    -webkit-line-clamp: 2 !important;
-    -webkit-box-orient: vertical !important;
-    overflow: hidden !important;
+    overflow: visible !important;
   }
 
-  /* 3. 文章内页处理：隐藏顶部巨幅大图，右侧图与目录齐平 */
+  .list__item .archive__item-excerpt p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 4. 文章内页：隐藏顶部大图，让右侧“大图+目录”随着页面往下滚动跟随 (sticky) */
   .page__hero {
     display: none !important;
   }
 
   .toc-top-image {
     display: block !important;
-    margin-bottom: 24px !important;
-    padding: 6px !important;
+    margin-bottom: 18px !important;
+    padding: 5px !important;
     background: #FFFFFF !important;
     border: 1px solid #DCDCD6 !important;
     box-sizing: border-box !important;
@@ -90,37 +88,61 @@
     display: block !important;
     width: 100% !important;
     height: auto !important;
-    max-height: 240px !important;
+    max-height: 180px !important;
     object-fit: contain !important;
     margin: 0 auto !important;
   }
 
   @media (min-width: 64em) {
-    .page__inner-wrap {
-      position: relative !important;
-    }
     .page .page__title {
       margin-top: 0 !important;
       margin-bottom: 1.2rem !important;
     }
+
     .page .page__content {
       clear: none !important;
       margin-top: 0 !important;
       padding-top: 0 !important;
     }
-    .sidebar__right {
-      position: absolute !important;
-      top: 0 !important;
-      right: -265px !important;
+
+    /* 关键修复：改回 position: sticky，让目录随着文章往下滚动一直跟着下来 */
+    .sidebar__right,
+    .sidebar__right.sticky {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 1.5rem !important;
+      right: auto !important;
+      float: right !important;
       width: 240px !important;
-      float: none !important;
-      margin: 0 !important;
+      margin-right: -265px !important;
+      margin-top: -3.5rem !important; /* 初始位置上提，与正文大标题顶部齐平 */
+      margin-bottom: 1rem !important;
       padding-left: 1.25rem !important;
       z-index: 10 !important;
     }
   }
 
-  /* 4. 恢复左侧菜单栏小图标与对齐 */
+  /* 5. 目录当前章节高亮显示（到了哪个目录，哪个目录就加粗+深色左边框+底色高亮） */
+  .toc__menu li a {
+    display: block !important;
+    padding: 6px 8px !important;
+    color: #555552 !important;
+    font-size: 13.5px !important;
+    line-height: 1.45 !important;
+    border-left: 2px solid transparent !important;
+    transition: all 0.15s ease !important;
+  }
+
+  .toc__menu li.active > a,
+  .toc__menu li a.active {
+    background-color: #E8E8E2 !important;
+    color: #141413 !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #141413 !important;
+    padding-left: 10px !important;
+  }
+
+  /* 6. 恢复左侧菜单栏小图标与对齐 */
   .author__urls li i,
   .author__urls li .fas,
   .author__urls li .fab,
@@ -139,18 +161,20 @@
 document.addEventListener("DOMContentLoaded", function() {
   var hero = document.querySelector(".page__hero");
   var heroImg = document.querySelector(".page__hero-image");
-  var innerWrap = document.querySelector(".page__inner-wrap");
+  var pageContent = document.querySelector(".page__content");
   var rightSidebar = document.querySelector(".sidebar__right");
 
+  // 1. 隐藏顶部巨幅头图
   if (hero) {
     hero.style.setProperty("display", "none", "important");
   }
 
-  if (innerWrap && (rightSidebar || heroImg)) {
+  // 2. 将头图放入右侧目录正上方（保持在 .page__content 内部，这样 sticky 才能跟随全文滚动）
+  if (pageContent && (rightSidebar || heroImg)) {
     if (!rightSidebar && heroImg) {
       rightSidebar = document.createElement("aside");
-      rightSidebar.className = "sidebar__right";
-      innerWrap.appendChild(rightSidebar);
+      rightSidebar.className = "sidebar__right sticky";
+      pageContent.insertBefore(rightSidebar, pageContent.firstChild);
     }
 
     if (rightSidebar && heroImg && !rightSidebar.querySelector(".toc-top-image")) {
@@ -161,6 +185,40 @@ document.addEventListener("DOMContentLoaded", function() {
       imgWrap.appendChild(clonedImg);
       rightSidebar.insertBefore(imgWrap, rightSidebar.firstChild);
     }
+  }
+
+  // 3. 章节滚动监听：读到哪个章节，右侧目录对应条目自动高亮显示
+  var tocLinks = document.querySelectorAll(".toc__menu a");
+  if (tocLinks.length > 0) {
+    var headings = [];
+    tocLinks.forEach(function(link) {
+      var rawHref = link.getAttribute("href") || "";
+      var id = decodeURIComponent(rawHref).replace(/^#/, "");
+      var target = id ? (document.getElementById(id) || document.getElementById(rawHref.replace(/^#/, ""))) : null;
+      if (target) {
+        headings.push({ link: link, target: target });
+      }
+    });
+
+    function updateActiveToc() {
+      var current = headings[0];
+      for (var i = 0; i < headings.length; i++) {
+        if (headings[i].target.getBoundingClientRect().top <= 150) {
+          current = headings[i];
+        }
+      }
+      tocLinks.forEach(function(link) {
+        link.classList.remove("active");
+        if (link.parentElement) link.parentElement.classList.remove("active");
+      });
+      if (current) {
+        current.link.classList.add("active");
+        if (current.link.parentElement) current.link.parentElement.classList.add("active");
+      }
+    }
+
+    window.addEventListener("scroll", updateActiveToc, { passive: true });
+    updateActiveToc();
   }
 });
 </script>

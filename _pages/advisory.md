@@ -120,9 +120,9 @@ toc: false
   </ol>
   <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-top: 0.5rem;">
     <span style="font-family: monospace; font-size: 0.95rem; font-weight: 600; color: #111111; background-color: #ffffff; padding: 0.55rem 1rem; border: 1px solid #cccccc; border-radius: 2px; user-select: all;">
-      你的邮箱@example.com
+      hello@aswebuild.com
     </span>
-    <button type="button" onclick="navigator.clipboard.writeText('你的邮箱@example.com'); this.innerText='✓ 已复制邮箱'; setTimeout(() => { this.innerText='复制邮箱地址'; }, 2500);" style="background-color: #111111; color: #ffffff !important; font-weight: 600; padding: 0.55rem 1.2rem; border: 1px solid #111111; font-size: 0.9rem; border-radius: 2px; cursor: pointer;">
+    <button type="button" onclick="navigator.clipboard.writeText('hello@aswebuild.com'); this.innerText='✓ 已复制邮箱'; setTimeout(() => { this.innerText='复制邮箱地址'; }, 2500);" style="background-color: #111111; color: #ffffff !important; font-weight: 600; padding: 0.55rem 1.2rem; border: 1px solid #111111; font-size: 0.9rem; border-radius: 2px; cursor: pointer;">
       复制邮箱地址
     </button>
     <a href="mailto:hello@aswebuild.com?subject=%E5%95%86%E4%B8%9A%E5%8F%99%E4%BA%8B%E4%B8%8E%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C%E5%92%A8%E8%AF%A2" style="display: inline-block; background-color: #ffffff; color: #111111 !important; font-weight: 600; padding: 0.55rem 1.2rem; text-decoration: none !important; font-size: 0.9rem; border: 1px solid #111111; border-radius: 2px;">

@@ -42,21 +42,21 @@ toc: false
     <path d="M195 245 L195 270" stroke="#999999" stroke-width="1.5" fill="none" marker-end="url(#arrow-gray)"/>
 
     <rect x="40" y="275" width="310" height="55" rx="3" fill="#f5f5f5" stroke="#d5d5d5" stroke-width="1"/>
-    <text x="60" y="300" font-size="13" font-weight="600" fill="#555555">结果：被视为“廉价白牌/代工厂”，难以建立品牌溢价</text>
+    <text x="60" y="300" font-size="13" font-weight="600" fill="#555555">结果：被视为“廉价代工厂”，难以建立品牌溢价</text>
     <text x="60" y="318" font-size="11" fill="#888888">获客高度依赖买量打折，无法沉淀长期品牌资产</text>
 
     <!-- 右半区：AsWeBuild 策略路径 -->
-    <text x="440" y="50" font-size="15" font-weight="700" fill="#111111">AsWeBuild 路径：基于新闻洞察与商业策略的叙事重构</text>
+    <text x="440" y="50" font-size="15" font-weight="700" fill="#111111">路径：基于新闻洞察与商业策略的叙事重构</text>
 
     <rect x="440" y="75" width="320" height="65" rx="3" fill="#f9f9f9" stroke="#222222" stroke-width="1.2"/>
     <text x="460" y="103" font-size="14" font-weight="600" fill="#111111">1. 深度商业访谈：提炼核心竞争壁垒</text>
-    <text x="460" y="124" font-size="12" fill="#555555">剥离内部自嗨，找到真正打动北美买家与渠道的痛点</text>
+    <text x="460" y="124" font-size="12" fill="#555555">剥离自嗨，找到真正打动北美买家与渠道的痛点</text>
 
     <path d="M600 145 L600 170" stroke="#111111" stroke-width="1.5" fill="none"/>
 
     <rect x="440" y="175" width="320" height="65" rx="3" fill="#111111"/>
     <text x="460" y="203" font-size="14" font-weight="600" fill="#ffffff">2. 跨文化叙事转译（Brand Story &amp; Positioning）</text>
-    <text x="460" y="224" font-size="12" fill="#cccccc">用克制、地道、有事实密度的英文，讲清品牌哲学与信任状</text>
+    <text x="460" y="224" font-size="12" fill="#cccccc">用克制、地道、有事实密度的英文，讲清品牌</text>
 
     <path d="M600 245 L600 270" stroke="#111111" stroke-width="1.5" fill="none"/>
 
@@ -106,17 +106,27 @@ toc: false
 
 ---
 
-<div style="margin: 3rem 0 1rem 0; padding: 2rem; background-color: #111111; color: #ffffff; border-radius: 2px;">
-  <h3 style="margin-top: 0; color: #ffffff; font-size: 1.25rem;">预约初步沟通</h3>
-  <p style="color: #cccccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+<div style="margin: 3rem 0 1rem 0; padding: 2rem; background-color: #f8f8f6; border: 1px solid #dcdcdc; border-top: 4px solid #111111; border-radius: 2px;">
+  <div style="margin: 0 0 0.75rem 0; color: #111111; font-size: 1.25rem; font-weight: 700;">
+    预约初步沟通
+  </div>
+  <p style="color: #222222 !important; font-size: 0.95rem; line-height: 1.65; margin: 0 0 1rem 0;">
     如果你觉得目前的品牌表达还没有配得上你的产品实力，欢迎发邮件聊聊。请在邮件中简单包含以下三点，我会在 2 个工作日内亲自回复：
   </p>
-  <ol style="color: #dddddd; font-size: 0.9rem; line-height: 1.7; margin-bottom: 1.5rem; padding-left: 1.2rem;">
-    <li>你的公司/品牌名称及目前网站的链接；</li>
-    <li>你目前在品牌定位、英文文案或内容获客上最卡壳的一个问题；</li>
+  <ol style="color: #222222 !important; font-size: 0.95rem; line-height: 1.75; margin: 0 0 1.5rem 0; padding-left: 1.25rem;">
+    <li style="margin-bottom: 0.25rem;">你的公司/品牌名称及目前网站的链接；</li>
+    <li style="margin-bottom: 0.25rem;">你目前在品牌定位、英文文案或内容获客上最卡壳的一个问题；</li>
     <li>你期望启动调整的时间节点。</li>
   </ol>
-  <a href="mailto:hello@aswebuild.com?subject=商业叙事与品牌合作咨询" style="display: inline-block; background-color: #ffffff; color: #111111; font-weight: 600; padding: 0.65rem 1.4rem; text-decoration: none; font-size: 0.95rem; border-radius: 2px;">
-    发送邮件联系 &rarr;
-  </a>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding-top: 0.5rem;">
+    <span style="font-family: monospace; font-size: 0.95rem; font-weight: 600; color: #111111; background-color: #ffffff; padding: 0.55rem 1rem; border: 1px solid #cccccc; border-radius: 2px; user-select: all;">
+      你的邮箱@example.com
+    </span>
+    <button type="button" onclick="navigator.clipboard.writeText('你的邮箱@example.com'); this.innerText='✓ 已复制邮箱'; setTimeout(() => { this.innerText='复制邮箱地址'; }, 2500);" style="background-color: #111111; color: #ffffff !important; font-weight: 600; padding: 0.55rem 1.2rem; border: 1px solid #111111; font-size: 0.9rem; border-radius: 2px; cursor: pointer;">
+      复制邮箱地址
+    </button>
+    <a href="mailto:hello@aswebuild.com?subject=%E5%95%86%E4%B8%9A%E5%8F%99%E4%BA%8B%E4%B8%8E%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C%E5%92%A8%E8%AF%A2" style="display: inline-block; background-color: #ffffff; color: #111111 !important; font-weight: 600; padding: 0.55rem 1.2rem; text-decoration: none !important; font-size: 0.9rem; border: 1px solid #111111; border-radius: 2px;">
+      唤起邮件软件发送 &rarr;
+    </a>
+  </div>
 </div>

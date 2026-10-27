@@ -61,7 +61,7 @@ toc: false
     <path d="M600 245 L600 270" stroke="#111111" stroke-width="1.5" fill="none"/>
 
     <rect x="440" y="275" width="320" height="55" rx="3" fill="#fdfaf6" stroke="#b84a39" stroke-width="1.5"/>
-    <text x="460" y="300" font-size="13" font-weight="700" fill="#b84a39">结果：赢得北美主流市场、合作伙伴与高净值客户信任</text>
+    <text x="460" y="300" font-size="13" font-weight="700" fill="#b84a39">结果：赢得北美市场、合作伙伴与高净值客户信任</text>
     <text x="460" y="318" font-size="11" fill="#555555">让网站、品牌故事与创始人专栏成为高转化的“数字资产”</text>
   </svg>
 </div>

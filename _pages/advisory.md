@@ -116,7 +116,7 @@ toc: false
     <li>你目前在品牌定位、英文文案或内容获客上最卡壳的一个问题；</li>
     <li>你期望启动调整的时间节点。</li>
   </ol>
-  <a href="mailto:你的邮箱@aswebuild.com?subject=商业叙事与品牌合作咨询" style="display: inline-block; background-color: #ffffff; color: #111111; font-weight: 600; padding: 0.65rem 1.4rem; text-decoration: none; font-size: 0.95rem; border-radius: 2px;">
-    发送邮件联系 hello@linqreative.com &rarr;
+  <a href="mailto:hello@aswebuild.com?subject=商业叙事与品牌合作咨询" style="display: inline-block; background-color: #ffffff; color: #111111; font-weight: 600; padding: 0.65rem 1.4rem; text-decoration: none; font-size: 0.95rem; border-radius: 2px;">
+    发送邮件联系 &rarr;
   </a>
 </div>

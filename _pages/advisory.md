@@ -7,12 +7,12 @@ toc: false
 ---
 
 <p style="font-size: 1.15rem; line-height: 1.75; color: #222; font-weight: 500; margin-bottom: 1.5rem;">
-很多在北美做生意的华人创始人和出海团队，手里握着85分的产品与供应链，却顶着一个只有40分的英文门面。
+很多在北美做生意的华人创始人和出海团队，手里握着85分的产品与供应链，却顶着一个只有15分的英文门面。
 </p>
 
-在拆解大量北美商业案例的过程中，我反复看到同一个断层：当企业试图进入北美主流视野、拓展本地渠道或建立 DTC 品牌溢价时，往往把「品牌本土化」降维成了「中翻英」。
+在拆解大量北美商业案例的过程中，我们反复看到同一个断层：当企业试图进入北美主流视野、拓展本地渠道或建立 DTC 品牌溢价时，往往把「品牌本土化」降维成了「中翻英」。
 
-找普通翻译，翻不出商业逻辑的微妙分寸；用 AI 生成，满篇都是空洞的硅谷套话（*Empower, Seamless, Revolutionary*）；找不懂华人商业底色的本地西人公关公司，不仅沟通成本高昂，写出来的东西也常常隔靴搔痒，抓不住你真正的业务护城河。
+找普通翻译，翻不出商业逻辑的微妙分寸；用 AI 生成，满篇都是空洞套话（*Empower, Seamless, Revolutionary*）；找不懂华人商业底色的本地西人公关公司，不仅沟通成本高昂，写出来的东西也常常隔靴搔痒，抓不住你真正的业务护城河。
 
 **在北美主流商业语境里，决定客户、渠道商与投资人是否信任你的，不是参数表，而是你如何讲述自己的商业逻辑与存在价值。**
 
@@ -36,7 +36,7 @@ toc: false
     <path d="M195 145 L195 170" stroke="#999999" stroke-width="1.5" fill="none" marker-end="url(#arrow-gray)"/>
 
     <rect x="40" y="175" width="310" height="65" rx="3" fill="#fff5f5" stroke="#e0b4b4" stroke-width="1"/>
-    <text x="60" y="203" font-size="14" font-weight="600" fill="#a94442">2. 表达断层：生硬直译 / 卖货叫卖 / AI 套话</text>
+    <text x="60" y="203" font-size="14" font-weight="600" fill="#a94442">2. 表达断层：生硬直译 / AI 套话</text>
     <text x="60" y="224" font-size="12" fill="#a94442">堆砌形容词与参数，缺乏北美主流语境的叙事分寸</text>
 
     <path d="M195 245 L195 270" stroke="#999999" stroke-width="1.5" fill="none" marker-end="url(#arrow-gray)"/>
@@ -56,27 +56,27 @@ toc: false
 
     <rect x="440" y="175" width="320" height="65" rx="3" fill="#111111"/>
     <text x="460" y="203" font-size="14" font-weight="600" fill="#ffffff">2. 跨文化叙事转译（Brand Story &amp; Positioning）</text>
-    <text x="460" y="224" font-size="12" fill="#cccccc">用克制、地道、有事实密度的英文，讲清品牌</text>
+    <text x="460" y="224" font-size="12" fill="#cccccc">用地道、和消费者有共鸣的英文，讲清品牌</text>
 
     <path d="M600 245 L600 270" stroke="#111111" stroke-width="1.5" fill="none"/>
 
     <rect x="440" y="275" width="320" height="55" rx="3" fill="#fdfaf6" stroke="#b84a39" stroke-width="1.5"/>
-    <text x="460" y="300" font-size="13" font-weight="700" fill="#b84a39">结果：赢得北美市场、合作伙伴与高净值客户信任</text>
+    <text x="460" y="300" font-size="13" font-weight="700" fill="#111111">结果：赢得北美市场、合作伙伴与高净值客户信任</text>
     <text x="460" y="318" font-size="11" fill="#555555">让网站、品牌故事与创始人专栏成为高转化的“数字资产”</text>
   </svg>
 </div>
 
 ---
 
-### 我如何帮你的业务建立真实壁垒
+### 助力品牌，建立真实壁垒
 
-基于十余年中加两地主流媒体（包括加拿大主流英文日报）的新闻采写经验，以及对北美 DTC 品牌与本地商业模式的长期追踪，我直接为北美华人企业、消费品牌与出海团队提供三项核心服务：
+基于十余年中加两地主流媒体（包括加拿大主流英文日报）的新闻采写经验，以及对北美 DTC 品牌与本地商业模式的长期追踪，我们直接为北美华人企业、消费品牌与出海团队提供三项核心服务：
 
 #### 01. 英文官网核心叙事与定位重塑（Website & Brand Narrative）
 你的英文网站不该只是一本在线产品目录，而应该是你最顶尖的销售代表。
 * **适用场景**：品牌升级、新独立站上线、或现有英文网站转化率低、显得“不够本地（Too generic / OEM-like）”。
 * **交付内容**：
-  * **品牌定位梳理（Messaging Framework）**：厘清你在北美市场的差异化切入点、目标受众画像与核心价值主张。
+  * **品牌定位梳理（Messaging Framework）**：理清你在北美市场的差异化切入点、目标受众画像与核心价值主张。
   * **核心页面英文撰稿**：包括首页（Homepage）逻辑架构与文案、品牌故事（About / Our Story）、创始人寄语及核心产品/服务页的深度叙事。
 
 #### 02. 创始人深度报道与行业公关背书（Founder Profile & Editorial PR）

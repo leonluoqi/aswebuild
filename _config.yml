@@ -168,7 +168,7 @@ author:
       # url: "hello@aswebuild.com"
     - label: "商业顾问与合作"
       icon: "fab fa-fw fa-internet-explorer"  
-      url: "/advisory/"
+      # url: "/advisory/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

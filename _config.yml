@@ -118,11 +118,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider: "google-gtag"
   google:
-    tracking_id          :289681102
-    anonymize_ip         :true,
-
+    tracking_id: "G-C3WHJ75BT5"  
+    anonymize_ip: true    
 
 # Site Author
 author:
@@ -356,13 +355,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# google analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-C3WHJ75BT5"  
-    anonymize_ip: false    
 
 
 # Defaults

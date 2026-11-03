@@ -21,3 +21,5 @@ tags: []
 * [**Google  Workspace**：我们用了20年多的企业电子邮箱等一揽子营运工具](https://workspace.google.com/landing/partners/referral/gws2/?utm_source=sign-up&utm_medium=affiliatereferral&utm_campaign=apps-referral-program&utm_content=O4XNZ1N)
 * [**Gusto：** 企业简化招聘、薪资、福利管理平台](https://get.gusto.com/bfkzrsqczcv1)
 * [**ElevenLabs：** 被称为最好用的文字转语音AI工具之一](https://try.elevenlabs.io/9kfzpyd7rdj9)
+
+Impact-Site-Verification: dc34ae6b-a01c-47a4-8d42-8d7902b58c00

@@ -105,4 +105,15 @@ paginate_path: "/page:num/"  # 分页路径
     </button>
   </form>
 
+  <!-- Shopify 联盟推广横幅（自适应响应式容器） -->
+<div class="shopify-affiliate-banner" style="width: 100%; max-width: 640px; margin: 18px auto 24px auto; text-align: center;">
+  <a rel="sponsored noopener" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" id="3323859" style="display: block; width: 100%; line-height: 0;">
+    <img src="//a.impactradius-go.com/display-ad/13624-3323859" 
+         alt="Start your Shopify store" 
+         style="width: 100%; height: auto; max-width: 640px; display: block; margin: 0 auto; border: none; border-radius: 4px;" />
+  </a>
+  <!-- Impact 追踪像素 -->
+  <img height="0" width="0" src="https://imp.pxf.io/i/58724" style="position:absolute;visibility:hidden;border:none;" alt="" />
+</div>
+
 </div>

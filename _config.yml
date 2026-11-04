@@ -132,13 +132,11 @@ author:
   email            : "hello@aswebuild.com"
   links:
  
-    - label: "小红书账号"
-      icon: "fas fa-podcast"
-      url: "https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318"
+  
     - label: "创业资源推荐"
       icon: "fas fa-check-square"
       url: "https://aswebuild.com/创业资源推荐/"
-    - label: "创业工具推荐"
+    - label: "创业必备工具箱"
       icon: "fas fa-wrench"
       url: "https://aswebuild.com/affiliate/"
     - label: "北美电商指南"
@@ -162,6 +160,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/linqreative/"
+    - label: "小红书账号"
+      icon: "fas fa-podcast"
+      url: "https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318"
     - label: "电子邮件联系"
       icon: "fas fa-fw fa-envelope-square"
       # url: "hello@aswebuild.com"

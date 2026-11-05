@@ -32,4 +32,4 @@ We may update these Terms from time to time. The updated version takes effect wh
 ### 8. Governing Law and Severability
 These Terms are governed by the laws of the Province of British Columbia and the federal laws of Canada applicable therein, without regard to conflict of law principles. Any dispute arising from or relating to these Terms or the Website shall be subject to the exclusive jurisdiction of the courts of British Columbia. If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.  
 
-**Contact / 联系方式:** [hello@aswebuild.com](mailto:hello@aswebuild.com)
+**Contact:** [hello@aswebuild.com](mailto:hello@aswebuild.com)

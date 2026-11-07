@@ -11,7 +11,6 @@ header:
   teaser: /assets/wp-content/uploads/2026/11/chatgpt_ads_black_friday_20261107.jpg
   image_description: "第一个有 ChatGPT 广告的黑五营销实操指南"
 categories:
-  - "商业思考"
   - "创业"
 tags:
   - "ChatGPT"

@@ -3,7 +3,7 @@ layout: single
 permalink: /business/2026/11/07/chatgpt_ads_black_friday/
 title: "第一个有 ChatGPT 广告的黑五，创业品牌应该怎么试水？"
 description: "这是 ChatGPT 在美国开启广告后的首个购物季。拆解花多少钱试、怎么试、用什么标准判断值不值，以及品牌在黑五前花不花钱都该完成的准备。"
-date: 2026-11-07 12:00:00 -0700
+date: 2026-11-07 01:00:00 -0700
 publish: true
 pin: false
 header:

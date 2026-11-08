@@ -160,7 +160,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/linqreative/"
-    - label: "小红书账号"
+    - label: "小红书同步更新"
       icon: "fas fa-podcast"
       url: "https://www.xiaohongshu.com/user/profile/5bc4262e1a4d0e00017dc318"
     - label: "电子邮件联系"
@@ -172,7 +172,10 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-
+    - label: "RSS Feed"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
+      
 # Sidebar
 # sidebar:
 #  - title: "小红书同步更新"

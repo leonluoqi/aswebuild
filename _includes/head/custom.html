@@ -80,27 +80,32 @@
     padding: 0 !important;
   }
 
-  /* 4. 文章内页：隐藏顶部大图，让右侧“大图+目录”随着页面往下滚动跟随 (sticky) */
+ /* 4. 文章内页：隐藏顶部大图，右侧“大图”放大至与右侧栏 100% 等宽，并跟随页面向下滚动 (sticky) */
   .page__hero {
     display: none !important;
   }
 
+  /* 图片外层容器：100% 撑满右侧栏 240px 宽度，去掉内边距 */
   .toc-top-image {
     display: block !important;
-    margin-bottom: 18px !important;
-    padding: 5px !important;
-    background: #FFFFFF !important;
-    border: 1px solid #DCDCD6 !important;
+    width: 100% !important;               /* 与右侧栏等宽 */
+    margin-bottom: 20px !important;       /* 距离下方目录留出自然空隙 */
+    padding: 0 !important;               /* 彻底去除内边距，画面直接贴合边框 */
+    background: transparent !important;
+    border: 1px solid #DCDCD6 !important; /* 保持 1px 细线框包边 */
+    border-radius: 2px !important;
+    overflow: hidden !important;
     box-sizing: border-box !important;
   }
 
+  /* 核心图片：铺满容器，放宽高度限制 */
   .toc-top-image img {
     display: block !important;
-    width: 100% !important;
+    width: 100% !important;               /* 宽度 100% 占满 */
     height: auto !important;
-    max-height: 180px !important;
-    object-fit: contain !important;
-    margin: 0 auto !important;
+    max-height: 320px !important;         /* 高度放宽至 320px，完整展示大图排版 */
+    object-fit: cover !important;         /* 饱满贴合，无额外缩进空隙 */
+    margin: 0 !important;
   }
 
   @media (min-width: 64em) {
@@ -115,7 +120,7 @@
       padding-top: 0 !important;
     }
 
-    /* 关键修复：改回 position: sticky，让目录随着文章往下滚动一直跟着下来 */
+    /* 保持 position: sticky 随着文章滚动跟随，且初始顶部与正文标题齐平 */
     .sidebar__right,
     .sidebar__right.sticky {
       position: -webkit-sticky !important;
@@ -125,8 +130,8 @@
       float: right !important;
       width: 240px !important;
       margin-right: -265px !important;
-      margin-top: -3.5rem !important; /* 初始位置上提，与正文大标题顶部齐平 */
-      margin-bottom: 1rem !important;
+      margin-top: -3.5rem !important;      /* 初始位置上提，与正文大标题顶部严格齐平 */
+      margin-bottom: 1.5rem !important;
       padding-left: 1.25rem !important;
       z-index: 10 !important;
     }

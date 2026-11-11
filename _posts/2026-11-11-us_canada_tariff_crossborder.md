@@ -24,7 +24,6 @@ tags:
 
 随着美国取消 800 美元小额免税（De Minimis），叠加高额加美双边关税，依赖跨境直邮的微型生意遭遇重创。新斯科舍省微型手作陶艺工作室 [Sugarhouse Ceramic Co.](https://sugarhouseceramicco.com/) 过去 80% 营收依赖美国，新规后订单暴跌超 90%；刺绣艺术家 Laurie Dolhan 创办的 [Hook, Line & Tinker](https://hooklinetinker.com/) 即便入驻 200 多个精品店，同样深陷高昂合规与履约内耗。
 
-![加美关税战下小企业跨境物流与清关合规实操指南](/assets/wp-content/uploads/2026/11/us_canada_tariff_crossborder_20261111.jpg)
 
 单件直邮几十美元的报关服务费吞噬了利润。不想“一单一报关”，现在常用办法是用“周期集货拼单”或“3PL 海外仓”将固定清关摩擦成本摊薄至极限：
 
@@ -46,5 +45,5 @@ tags:
 ---
 
 ### 配套防御底线
-1. **穿透 HS 编码与原产地**：通过官方 [Canada Tariff Finder](https://www.tariffinder.ca/) 核准 10 位 HS 编码；符合 [CUSMA（美墨加协定）](https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng) 规则的务必规范留存原产地证书 6 年备查。涉及进口原料在加加工后再出口的，走加拿大边境服务局（[CBSA](https://www.cbsa-asfc.gc.ca/)）申请关税退税（[Duty Drawback](https://www.cbsa-asfc.gc.ca/import/ddr-red/menu-eng.html)）追回已缴关税。
+1. **穿透 HS 编码与原产地**：通过官方 [Canada Tariff Finder](https://www.tariffinder.ca/) 核准 10 位 HS 编码；符合 [CUSMA（美墨加协定）](https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/index.aspx?lang=eng) 规则的务必规范留存原产地证书 6 年备查。涉及进口原料在加加工后再出口的，走加拿大边境服务局（[CBSA](https://www.cbsa-asfc.gc.ca/)）申请关税退税（Duty Drawback）追回已缴关税。
 2. **守住本土营收红线**：单一跨境市场占比坚决控制在 50% 以下，将精力同步分流至加拿大本地独立买手店分销与市集，用内循环现金流对冲外部贸易政策震荡。

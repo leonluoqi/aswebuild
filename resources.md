@@ -686,7 +686,7 @@ author_profile: true
 </div>
 
 <div class="awb-res-footer">
-  <strong>合规关联与免责声明（Disclaimer & Affiliate Disclosure）：</strong>本页面所汇总的加美政策数据、计算器测算结果与实操指南仅供商业经验交流与教育参考，不构成任何执业法律（Legal）、注册会计师（CPA）或报关行专业建议。本页部分链接是 Affiliate Link（合作伙伴推广链接），如果您通过链接付费使用，我们可获得部分佣金，但这不会增加您的任何购买成本。详情请参阅本站 <a href="/terms/">服务条款与免责声明 (Terms of Service)</a>。
+  <strong>合规关联与免责声明：</strong>本页面所汇总的加美政策数据、计算器测算结果与实操指南仅供商业经验交流与教育参考，不构成任何执业法律（Legal）、注册会计师（CPA）或报关行专业建议。详情请参阅本站 <a href="/terms/">服务条款与免责声明 (Terms of Service)</a>。
 </div>
 
 <script>

@@ -29,7 +29,7 @@ tags:
     受 2025–2026 年美国取消 $800 小额免税（De Minimis）及加美双边关税政策影响，下文 2021 年盘点的进货渠道已发生重大变更，选品进货前请务必注意以下 4 点校准：
   </p>
   <ul style="margin: 0 0 12px 0; padding-left: 20px;">
-    <li style="margin-bottom: 6px;"><strong>1. 文末提到的 Printify 已跃升为 2026 零库存首选：</strong>Printify 与 Printful 已于 2024 年底合并成立母公司 <strong>FYUL</strong>（双方品牌仍独立运营）。在 <a href="https://printify.com/" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Printify</a> 后台开启<strong>美加本地路由（Local Routing）</strong>后，美国订单自动派给美国工厂、加拿大订单派给安省/BC省合作工厂，彻底避开跨境海关查验与高昂关税。</li>
+    <li style="margin-bottom: 6px;"><strong>1. 文末提到的 Printify 已跃升为 2026 零库存首选：</strong>Printify 与 Printful 已于 2024 年底合并成立母公司 <strong>FYUL</strong>（双方品牌仍独立运营）。在 <a href="https://try.printify.com/aswebuild" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Printify</a> 后台开启<strong>美加本地路由（Local Routing）</strong>后，美国订单自动派给美国工厂、加拿大订单派给安省/BC省合作工厂，彻底避开跨境海关查验与高昂关税。</li>
     <li style="margin-bottom: 6px;"><strong>2. 第 3 项 Oberlo 已正式关停：</strong>Shopify 已下线 Oberlo。若仍需对接速卖通，官方推荐替代工具为 <strong>DSers</strong>；若追求北美本地现货与定制品牌包装卡，主流卖家现多采用 <strong>Zendrop</strong> 或 <strong>AutoDS</strong>。</li>
     <li style="margin-bottom: 6px;"><strong>3. 新增免费王牌渠道 Shopify Collective：</strong>相比月费已涨至 $39.99/月起的 Spocket（下文第 2 项价格为 2021 年旧价），美加 Shopify 商家现在可直接免费启用 <strong>Shopify Collective</strong>，一键导入北美本土知名独立站品牌的商品代发，自带 20%–40% 分销毛利且支持美加本土极速达。</li>
     <li style="margin-bottom: 0;"><strong>4. 第 1 项 AliExpress（速卖通）2026 避坑铁律：</strong>切勿再从国内盲目单件平邮发往美国！在速卖通选品时，必须勾选<strong>“Ship from US（美国本地仓发货）”</strong>或确认物流包含 <strong>DDP 预付关税服务</strong>，否则包裹到达美国海关时会产生高额附加税费导致买家拒收。</li>

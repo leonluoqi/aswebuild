@@ -20,6 +20,29 @@ tags:
 - "\u7F8E\u56FD"
 - "\u82F1\u56FD"
 ---
+
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新校准</span>
+    <strong style="color: #141413; font-size: 16px;">重大变动：Mailchimp 独立网店业务已关停，2026 免费版大幅缩水与最新平替方案！</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    本文写于 2021 年 5 月 Mailchimp 刚试水独立网店业务之时。但此后随着财税巨头 Intuit 以 120 亿美元收购 Mailchimp 并与 Shopify 达成官方直连合作，该业务线发生了重大战略收缩。截至 <strong>2026 年 11 月</strong>，选型前请务必了解以下 3 点现状：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. Mailchimp Stores（独立网店）已正式下线退场：</strong>下文提到的 Mailchimp 免费网店及 Core/Plus 电商套餐（原链接 `mailchimp.com/features/online-store/`）早已停止运营。Mailchimp 放弃了自建电商平台，全面退回“通过插件接入第三方网店做邮件营销”的定位（仅保留基础单页 Landing Page 与简易预约功能）。</li>
+    <li style="margin-bottom: 6px;"><strong>2. 2026 年 Mailchimp 免费版额度已严重缩水：</strong>截至 2026 年，Mailchimp 的 Free 免费套餐上限已从早年的 2,000 人大幅砍至<strong>仅限 250 个联系人、每月最多发 500 封邮件（单日上限 250 封）</strong>，且免费版已<strong>彻底取消自动化工作流（Customer Journeys）与定时发信功能</strong>（旧版 Classic Automation Builder 也已于 2025 年 6 月停用）。</li>
+    <li style="margin-bottom: 0;"><strong>3. 2026 开网店与做预约的黄金替代组合：</strong>
+      <br>• <strong>做实物/数字电商网店：</strong>直接使用 <a href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Shopify</a>（自带免费 <strong>Shopify Email 每月前 10,000 封免费</strong>，或搭配 <strong>Klaviyo</strong> 跑自动化弃单挽回流）；若追求超低成本自建站，可选用 <a href="https://www.hostinger.com/" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Hostinger</a> 或 <a href="https://www.bluehost.com/" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Bluehost</a> 一键部署 WordPress + WooCommerce；
+      <br>• <strong>做服务预约与自动收款：</strong>专业咨询与创意服务推荐用 <a href="https://www.dubsado.com/?c=qilin21" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Dubsado</a>（从预约、签合同到收定金一站闭环）或开源排期工具 <strong>Cal.com</strong>。
+    </li>
+  </ul>
+  <div style="font-size: 12.5px; color: #6E6E6A; border-top: 1px dashed #D8D4CC; padding-top: 8px;">
+    💡 工具选型对比：前往本站 <a href="/tools/" style="color: #141413; font-weight: 600; text-decoration: underline;">《北美创业工具箱（2026 实测 17 款软件栈）》</a>。
+  </div>
+</div>
+
 这个网店平台预计会很火爆，很符合当前营销**+** 网店的最新模式。
 
 最新数据显示，开网店是**70%** 以上北美小生意的选择。这就是为什么众多公司想挤入其中，提供网店平台。最近，营销大拿[**Mailchimp**](https://mailchimp.com) 涉足网店平台业务，**5** 月**18** 日向美国和英国的中小企业客户开放。

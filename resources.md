@@ -674,16 +674,6 @@ author_profile: true
 
 </div>
 
-<!-- 站内文库：团队亲测软件深度评测 -->
-<div class="awb-archive-box">
-  <h4>📚 站内《创业资源与效率工具》深度实测报告</h4>
-  <ul class="awb-article-grid">
-    <li><a href="/futurpreneur/">• 机构专访：Futurpreneur 加拿大青年创业贷款 + 专属导师全解析</a></li>
-    <li><a href="/business/2021/12/15/clickup这款pm软件，每周为你节省24小时/">• 深度实测：ClickUp 这款 PM 软件，如何每周为你节省 24 小时？</a></li>
-    <li><a href="/business/2022/07/18/客户管理工具dubsado：我花得最值的400美元/">• 实战复盘：客户管理工具 Dubsado —— 我花得最值的 400 美元</a></li>
-    <li><a href="/business/2021/03/09/小企业管理软件：dubsado/">• 软件评测：一站式小企业客户签约与收费管理软件 Dubsado</a></li>
-  </ul>
-</div>
 
 <div class="awb-res-footer">
   <strong>合规关联与免责声明：</strong>本页面所汇总的加美政策数据、计算器测算结果与实操指南仅供商业经验交流与教育参考，不构成任何执业法律（Legal）、注册会计师（CPA）或报关行专业建议。详情请参阅本站 <a href="/terms/">服务条款与免责声明 (Terms of Service)</a>。

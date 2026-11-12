@@ -261,7 +261,7 @@ author_profile: true
 </style>
 
 <div class="awb-res-intro">
-  <span class="awb-res-badge">2026.11 最新政策校准 · 站内专栏与官方工具总索引</span><br>
+  <span class="awb-res-badge">2026.11 最新政策更新 · 站内专栏与官方工具总索引</span><br>
   这里整合了 <strong>aswebuild（北美小生意经）</strong> 历年沉淀的 50+ 篇站内深度指南、加美官方税率与海关查询工具、CRA 报税抵扣清单、企业并购尽调系列及创业扶持机构。只推荐深入访谈与亲自实测过的机构与工具。
 </div>
 
@@ -272,7 +272,7 @@ author_profile: true
   <a href="#sec-customs">02 · 加拿大关税 & 中国进口手册</a>
   <a href="#sec-tax">03 · 加拿大报税需知 & 20大抵扣</a>
   <a href="#sec-buy">04 · 加拿大购买企业指南</a>
-  <a href="#sec-grants">05 · 创业贷款、注册合规与精选评测</a>
+  <a href="#sec-grants">05 · 创业贷款、注册合规</a>
   <a href="/tools/">🧰 前往「17款创业软件工具箱」→</a>
 </div>
 
@@ -626,7 +626,7 @@ author_profile: true
 </div>
 
 <!-- ============================================== -->
-<!-- 模块 05：创业扶持机构、注册合规与精选工具实测 -->
+<!-- 模块 05：创业扶持机构、注册合规 -->
 <!-- ============================================== -->
 <div class="awb-sec-title" id="sec-grants">
   <h2>05 · 创业贷款机构、$216 DIY 注册与本站在用软件实测</h2>

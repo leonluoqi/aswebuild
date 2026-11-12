@@ -60,4 +60,4 @@ Dropshipping 模式出现在上个世纪末，这两年这种简单又投资小�
 
 美国一个叫 Tom Cormier 的化学工程师2017年在 [Ebay](https://www.ebay.com) 开了 Dropshipping 网店，第二天就卖了一个11美元的iPhone手机壳，赚了1美元，随后他每月能赚5000美元。目前，Cormier 创办的[Dropshipping University](https://dropshippinguniversity.com)已经有上万前来学习小生意人。
 
-听起来很美好，但你跳进 Dropshipping 网店之前，一定要先了解其[Dropshipping优缺点](https://aswebuild.com/business/2021/04/23/dropshipping-the-pros-and-the-cons/)。
+听起来很美好，但你跳进 Dropshipping 网店之前，一定要先了解其[Dropshipping优缺点](https://aswebuild.com/business/2021/04/23//business/2021/04/23/%e5%bc%80dropshipping%e7%bd%91%e5%ba%97%e7%b3%bb%e5%88%97%e4%b9%8b%e4%ba%8c%ef%bc%9a%e4%bc%98%e5%8a%a3%e6%9c%89%e5%93%aa%e4%ba%9b%ef%bc%9f/)。

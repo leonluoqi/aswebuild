@@ -20,6 +20,22 @@ tags:
 - "\u521D\u521B\u4F01\u4E1A"
 - "\u7F51\u5E97"
 ---
+
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新校准</span>
+    <strong style="color: #141413; font-size: 16px;">重大更新：PushOwl 已被 Brevo 收购并升级为“网页推送 + 邮件 + 短信”三合一引擎</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    本文写于 2021 年。截至 <strong>2026 年 11 月</strong>，下文介绍的 PushOwl 已被欧洲知名营销平台 <strong>Brevo（原 Sendinblue）</strong> 正式收购，并在 <a href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Shopify</a> 应用商店全面升级为 <strong>Brevo PushOwl: Email, Push, SMS</strong>。在 2026 年使用网页推送（Web Push）挽回匿名访客时，请掌握以下 3 点最新实况：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. 2026 最新套餐与三合一能力：</strong>现在的 Brevo PushOwl 不仅 retains 原有的免费版（每月 500 次 Web Push + 500 封邮件，不限订阅人数）和 <strong>$19 USD/月（年付 $15/月，含每月 1 万次推送 + 弃单挽回自动化）</strong>，还直接打通了弹窗收集邮箱与 SMS 短信营销，无需再拼凑多套零散插件。</li>
+    <li style="margin-bottom: 6px;"><strong>2. 客观认清 iOS（苹果手机）的推送限制：</strong>在北美市场，约 55%–60% 的移动端流量来自 iPhone。虽然 Android 手机和电脑端 Chrome/Edge/Safari 支持访客“一键点击即订阅 Web Push”，但在 <strong>苹果 iOS 系统上，移动网页推送要求用户先把你的网店“添加到主屏幕（Add to Home Screen）”后才能触发</strong>。因此，Web Push 绝不能替代邮件列表——<strong>最佳实践是“用弹窗送首单折扣收集真实 Email（主通道）+ 用 Web Push 捕捉不愿填邮箱的电脑与安卓匿名访客（增量通道）”</strong>。</li>
+    <li style="margin-bottom: 0;"><strong>3. 严禁“进站第 1 秒”强弹推送请求：</strong>Chrome 与 Safari 浏览器现已对滥发推送弹窗的网站实施自动静默折叠（Quiet Permission Prompts）。务必在后台将推送邀请设为<strong>“访客浏览满 2 个页面或点击加入购物车后”</strong>再触发，转化率可提升 3 倍且不伤用户体验。</li>
+  </ul>
+</div>
 网店店主都明白，只有在客户看你的网站时，才有一点控制权影响其购物体验和购物决心。一旦他们离开，要让其回来不是件容易的事，尤其是有商品放弃在购物车内。
 
 这些匿名客户没有留下任何电子邮件，没有注册，怎么办呢？

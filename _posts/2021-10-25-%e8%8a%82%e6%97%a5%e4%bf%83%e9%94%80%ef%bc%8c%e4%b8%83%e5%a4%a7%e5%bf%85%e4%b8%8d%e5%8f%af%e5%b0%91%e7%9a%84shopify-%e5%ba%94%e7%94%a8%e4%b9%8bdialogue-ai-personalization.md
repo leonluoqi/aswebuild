@@ -18,6 +18,23 @@ tags:
 - app
 - "\u7F51\u5E97"
 ---
+
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新校准</span>
+    <strong style="color: #141413; font-size: 16px;">Dialogue AI 2026 新定价 & Shopify 结账页扩展示范（Checkout Extensibility）新规</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    本文发布于 2021 年。截至 <strong>2026 年 11 月</strong>，这款应用在 <a href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Shopify</a> 应用商店已升级更名为 <strong>Dialogue - Personalization & CRO</strong>。在 2026 年部署 AI 个性化推荐与交叉销售（Cross-sell）时，请重点注意以下 3 项规则与价格变化：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. 2026 最新按单量阶梯定价：</strong>下文提到的旧版按营收收费已改为按月订单量计费——开发测试店免费；<strong>月订单 100 单以内为 $19 USD/月</strong>；<strong>500 单以内为 $59 USD/月</strong>；<strong>1,000 单以内为 $99 USD/月</strong>（均含无限制 A/B 测试、可购物短视频 Shoppable Reels 模块与智能捆绑推荐）。</li>
+    <li style="margin-bottom: 6px;"><strong>2. Shopify 结账页新规（Checkout Extensibility 权限区分）：</strong>下文提到“在结账时推广相关产品”，需注意 Shopify 现已全面废除旧版 `checkout.liquid` 并强制执行 <strong>Checkout Extensibility</strong> 安全架构——目前<strong>仅月费 $2,300+ 的 Shopify Plus 企业店铺</strong>被允许在结账表单页面（Checkout Page）内直接嵌入加购组件；而<strong>普通 Basic / Grow 套餐商家</strong>，应将 AI 追加销售配置在<strong>侧边购物车抽屉（In-Cart Drawer）</strong>以及<strong>付款完成后的黄金一秒页（Post-Purchase One-Click Upsell）</strong>，同样可提升 15%–25% 客单价！</li>
+    <li style="margin-bottom: 0;"><strong>3. 起步期 0 成本官方平替（Shopify Search & Discovery）：</strong>如果你的新店月订单尚不足 50 单，无需一开始就付费买第三方 AI 推荐插件——可直接安装 Shopify 官方出品、<strong>100% 免费的 Shopify Search & Discovery 应用</strong>，即可免费配置商品页“经常一起购买（Complementary Products）”与关联推荐，等跑出稳定流量后再升级 Dialogue 做深度 A/B 测试。</li>
+  </ul>
+</div>
+
 越来越多的电商用**Shopify** 开网店，用**[Shopify](https://www.shopify.ca)** 的一大好处就是内置集成了很多**app** 应用程序，让电商的活变得轻松。年底节假日越来越近，抓住网店的每个机会去进行促销变得至关重要。
 
 当上网购物者来到你的网站时，你能确认有多少比例把这些访问者变成客户呢？

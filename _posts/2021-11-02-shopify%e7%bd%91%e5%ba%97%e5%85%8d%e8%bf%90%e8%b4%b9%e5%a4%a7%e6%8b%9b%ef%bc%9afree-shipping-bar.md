@@ -18,6 +18,29 @@ tags:
 - "\u7F51\u5E97"
 - "\u8425\u9500\u5DE5\u5177"
 ---
+
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新校准</span>
+    <strong style="color: #141413; font-size: 16px;">2026 满额包邮算账铁律：如何拉升客单价（AOV）而不被跨境关税与偏远运费吃光利润？</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    根据 Baymard Institute 2026 最新电商调研，<strong>“结账页突然冒出的高额运费与税费”依然是导致 40% 真实买家在最后一步放弃付款的头号杀手</strong>。下文介绍的 Hextom Free Shipping Bar 依然好用，但在 <strong>2026 年 11 月</strong>配置满额包邮策略时，必须升级以下 3 条精算规则：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. 满额包邮门槛的黄金公式（当前 AOV × 1.15 至 1.25）：</strong>切忌拍脑袋设一个“满 $50 包邮”！先看你 <a href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Shopify</a> 后台过去 90 天的平均客单价（AOV），将免邮门槛设在<strong>比当前 AOV 高出 15%–25% 的位置</strong>（例如当前 AOV 为 $62，则设为<strong>“满 $75 免运费”</strong>），引导买家多加购一件高毛利凑单小件。</li>
+    <li style="margin-bottom: 6px;"><strong>2. 严防加拿大偏远地区与 2026 跨境关税倒贴钱：</strong>
+      <br>• <strong>剔除偏远邮编与超大件：</strong>在加拿大境内包邮必须仅限 10 省常规地区（在 Shopify Shipping Profiles 中将育空 YT、西北地区 NT、努纳武特 NU 及偏远海岛设为不参与免邮，否则一单 Canada Post / UPS 偏远附加费高达 $40–$80 加元）；
+      <br>• <strong>美加分仓或按国别设门槛：</strong>自美国取消 $800 免税额后，若从加拿大直邮美国，务必将关税成本计入包邮门槛（如加拿大本地满 $75 CAD 包邮、发美国满 $95 USD 包邮），或使用 <a href="https://printify.com/" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Printify</a> 本地路由 / 边境 3PL 分仓发货。
+    </li>
+    <li style="margin-bottom: 0;"><strong>3. 2026 零插件加速方案：</strong>如今大多数新版 Shopify OS 2.0 主题（及侧边购物车抽屉 Slide Cart）已原生自带动态免运费进度条功能。若你的主题已自带该组件，可直接启用原生进度条以减少第三方 JS 脚本加载、提升移动端网速。</li>
+  </ul>
+  <div style="font-size: 12.5px; color: #6E6E6A; border-top: 1px dashed #D8D4CC; padding-top: 8px;">
+    💡 跨境成本测算：访问本站 <a href="/resources/#calc-section" style="color: #141413; font-weight: 600; text-decoration: underline;">《北美创业合规导航 · 2026 跨境关税与履约成本速算器》</a>。
+  </div>
+</div>
+
 几乎每个人都想要自己买东西时有个好deal。
 
 如果你也认同，那么[加拿大Hextom公司](https://hextom.com/)的 F[ree Shipping Bar](https://apps.shopify.com/free-shipping-bar)就是你网店最需要的工具。
@@ -57,6 +80,6 @@ tags:
 
 6.能跟踪哪些产品通过免运费获得最多销售额。
 
-Shipping Bar 最近正在做黑五促销，收费计划都有25%折扣，截止到本月30日。想要了解一下的还可以去看[这个demo网站](https://sigma-28.myshopify.com/?_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaHR6YVdkdFlTMHlPQzV0ZVhOb2IzQnBabmt1WTI5dEJqb0dSVlE9IiwiZXhwIjoiMjAyMS0xMS0wMlQyMzoxMDo1My4xNDJaIiwicHVyIjoicGVybWFuZW50X3Bhc3N3b3JkX2J5cGFzcyJ9fQ%3D%3D--2c84c48cc5b0cb21316fbdbe64e8605fb72e7151)。
+
 
 补充一句，[Hextom 公司生产好多 shopify 网店的应用工具](https://apps.shopify.com/partners/hextom)，而且评价都很高，值得都去看看。

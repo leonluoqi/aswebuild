@@ -39,7 +39,7 @@ tags:
   </div>
 </div>
 
-[Dropshipping（转运配送）模式](https://aswebuild.com/business/2021/04/22/why-drop-shipping/)的网店虽然很火，但需要明白其优劣点后再做决定。
+[Dropshipping（转运配送）模式](https://aswebuild.com/business/2021/04/22/%e5%bc%80dropshipping%e7%bd%91%e5%ba%97%e7%b3%bb%e5%88%97%e4%b9%8b%e4%b8%80%ef%bc%9a%e8%bf%99%e4%b8%aa%e6%a8%a1%e5%bc%8f%e5%88%b0%e5%ba%95%e6%9c%89%e5%a4%9a%e7%81%ab/)的网店虽然很火，但需要明白其优劣点后再做决定。
 
 **优点**
 

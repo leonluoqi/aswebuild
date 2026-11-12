@@ -19,6 +19,26 @@ tags:
 - "\u521D\u521B\u4F01\u4E1A"
 - "\u7F51\u5E97"
 ---
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新校准</span>
+    <strong style="color: #141413; font-size: 16px;">进货渠道大洗牌：告别跨境免税盲盒，锁定美加本土履约网络</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    受 2025–2026 年美国取消 $800 小额免税（De Minimis）及加美双边关税政策影响，下文 2021 年盘点的进货渠道已发生重大变更，选品进货前请务必注意以下 4 点校准：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. 文末提到的 Printify 已跃升为 2026 零库存首选：</strong>Printify 与 Printful 已于 2024 年底合并成立母公司 <strong>FYUL</strong>（双方品牌仍独立运营）。在 <a href="https://printify.com/" target="_blank" rel="sponsored noopener" style="color: #8A2520; font-weight: 600;">Printify</a> 后台开启<strong>美加本地路由（Local Routing）</strong>后，美国订单自动派给美国工厂、加拿大订单派给安省/BC省合作工厂，彻底避开跨境海关查验与高昂关税。</li>
+    <li style="margin-bottom: 6px;"><strong>2. 第 3 项 Oberlo 已正式关停：</strong>Shopify 已下线 Oberlo。若仍需对接速卖通，官方推荐替代工具为 <strong>DSers</strong>；若追求北美本地现货与定制品牌包装卡，主流卖家现多采用 <strong>Zendrop</strong> 或 <strong>AutoDS</strong>。</li>
+    <li style="margin-bottom: 6px;"><strong>3. 新增免费王牌渠道 Shopify Collective：</strong>相比月费已涨至 $39.99/月起的 Spocket（下文第 2 项价格为 2021 年旧价），美加 Shopify 商家现在可直接免费启用 <strong>Shopify Collective</strong>，一键导入北美本土知名独立站品牌的商品代发，自带 20%–40% 分销毛利且支持美加本土极速达。</li>
+    <li style="margin-bottom: 0;"><strong>4. 第 1 项 AliExpress（速卖通）2026 避坑铁律：</strong>切勿再从国内盲目单件平邮发往美国！在速卖通选品时，必须勾选<strong>“Ship from US（美国本地仓发货）”</strong>或确认物流包含 <strong>DDP 预付关税服务</strong>，否则包裹到达美国海关时会产生高额附加税费导致买家拒收。</li>
+  </ul>
+  <div style="font-size: 12.5px; color: #6E6E6A; border-top: 1px dashed #D8D4CC; padding-top: 8px;">
+    💡 进货与建站直通车：前往本站 <a href="/tools/" style="color: #141413; font-weight: 600; text-decoration: underline;">《北美创业工具箱》</a> 获取 Shopify 与 Printify 最新试用通道。
+  </div>
+</div>
+
 开Dropshipping网店货源很重要，你卖不同的产品很可能要选不同的进货渠道。今天是最受欢迎的进货渠道。
 
   1. **[AliExpress](https://www.aliexpress.com)**

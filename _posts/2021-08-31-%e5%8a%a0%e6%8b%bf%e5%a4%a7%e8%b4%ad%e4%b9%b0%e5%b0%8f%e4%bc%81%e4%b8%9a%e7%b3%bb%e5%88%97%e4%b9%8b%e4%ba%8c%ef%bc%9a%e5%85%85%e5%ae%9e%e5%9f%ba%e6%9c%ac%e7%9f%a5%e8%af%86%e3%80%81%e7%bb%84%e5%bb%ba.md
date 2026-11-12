@@ -18,6 +18,22 @@ tags:
 - "\u4F01\u4E1A\u7BA1\u7406"
 - "\u8D2D\u4E70\u4F01\u4E1A"
 ---
+<!-- 2026年11月更新模块：直接粘贴在 YAML 头部 --- 下方 -->
+<div style="background: #F8F7F3; border: 1.5px solid #141413; border-left: 5px solid #8A2520; border-radius: 6px; padding: 18px 20px; margin: 0 0 28px 0; font-size: 14.5px; line-height: 1.65; color: #2C2B29;">
+  <div style="margin-bottom: 10px;">
+    <span style="display: inline-block; background: #8A2520; color: #FFFFFF; font-size: 11.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: 0.04em; margin-right: 6px;">2026年11月最新政策校准</span>
+    <strong style="color: #141413; font-size: 16px;">2026 核心决策：买资产（Asset Sale）还是买股权（Share Sale）？</strong>
+  </div>
+  <p style="margin: 0 0 10px 0;">
+    组建好下文的“金融专家 + CPA 会计师 + 商业律师”铁三角团队后，你们在 2026 年面临的第一个核心专业博弈，就是确定交易架构——<strong>买资产（Asset Purchase）还是买股权（Share Purchase）</strong>：
+  </p>
+  <ul style="margin: 0 0 12px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong>1. 为什么卖家拼命想“卖股权”？（2026 LCGE 免税额涨至 $127.5 万）：</strong>自 2026 税年起，加拿大合格小企业股份（QSBC Shares）的<strong>终生资本增值免税额（LCGE）已随通胀上调至 $1,275,000 加元/人</strong>！卖家只有通过出售公司股权（Share Sale），才能把这 127.5 万加元的卖店增值免税装进口袋；而你若接手股权，就会自动继承原公司历史上所有的潜在偷漏税、未决诉讼与担保黑洞。</li>
+    <li style="margin-bottom: 6px;"><strong>2. 为什么买家与银行优先选“买资产”？（剥离负债 + 适用 CSBFP 贷款）：</strong>作为买方，注册一家全新的加拿大有限公司去购买老店的设备、存货、招牌与租约（Asset Sale），不仅能把原公司的历史税务地雷切割干净，更重要的是——<strong>联邦 CSBFP 政府担保贷款（最高 115 万加元）严格规定只能用于购买合格商业资产，严禁用于购买公司股权（Share Purchase）！</strong>若必须买股权，金融专家需为你改配 <strong>BDC 企业收购贷款（Business Acquisition Loan）</strong> 或设计卖方融资（VTB）。</li>
+    <li style="margin-bottom: 0;"><strong>3. 商业律师介入的黄金节点（签 Offer to Lease / LOI 之前）：</strong>2026 年大温商业律师审阅一份完整商业租约与资产购买协议（APA）的行情约为 <strong>$1,500–$3,500 加元</strong>。切记：必须在签署具有法律约束力的 <em>Offer to Lease</em> 或解除条件（Subject Removal）<strong>之前</strong>让律师把关，并写入 <em>"Subject to Lawyer's Review of Lease & Due Diligence"</em> 保命条款。</li>
+  </ul>
+</div>
+
 了解自己确定目标后，你还需要花时间了解企业易主、业务结构转型等基础知识，这个过程也需要1到3个月，将会对你的时间表和期望值有很重要的影响。
 
 购买现有企业的好处是，大多数企业主都会同意留任一段时间来帮助你过渡。

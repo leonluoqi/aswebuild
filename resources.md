@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "北美创业合规与实战导航"
+title: "北美创业资源：合规与实战导航"
 permalink: /resources/
 author_profile: true
 ---

@@ -6,11 +6,6 @@ author_profile: true
 ---
 
 <style>
-  /* 突破主题限制：桌面端通栏加宽，告别窄屏压抑感 */
-  .initial-content, .page {
-    max-width: 1140px !important;
-  }
-
   .awb-tools-intro {
     margin: 0 0 24px 0;
     padding: 0 0 14px 0;
@@ -145,31 +140,23 @@ author_profile: true
 </style>
 
 <div class="awb-tools-intro">
-  这里汇集了 <strong>aswebuild（北美小生意经）</strong> 在过往商业拆解中反复实测、最适合北美华人独立卖家、本地服务业、专业顾问与一人公司的 17 款核心软件栈。拒绝繁琐低效的软件堆砌，用成熟工具放大极简人效。
-</div>
-
-<!-- 顶部 Shopify 联盟自适应官方横幅（已内置专属追踪代码） -->
-<div class="awb-banner-wrap">
-  <a rel="sponsored noopener" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" id="3323859">
-    <img class="banner-img" src="//a.impactradius-go.com/display-ad/13624-3323859" alt="Start your Shopify store" />
-  </a>
-  <img height="0" width="0" src="https://imp.pxf.io/i/58724" style="position:absolute;visibility:hidden;border:none;" alt="" />
+  这里汇集了 <strong>aswebuild（北美小生意经）</strong> 在过往商业拆解中反复实测、最适合北美华人独立卖家、本地服务业、专业顾问与一人公司的 18 款核心软件栈。拒绝繁琐低效的软件堆砌，用成熟工具放大极简人效。
 </div>
 
 <!-- ============================================== -->
-<!-- 模块 01：DTC 电商、零库存供应链与财税对账 (4款) -->
+<!-- 模块 01：DTC 电商、零库存供应链与财税对账 (5款) -->
 <!-- ============================================== -->
 <div class="awb-section-header">
   <h2>01 · DTC 电商、零库存供应链与财税对账</h2>
-  <span>零库存启动北美独立站，打通接单、印制、客服与跨省销售税自动入账</span>
+  <span>零库存启动北美独立站，打通接单、印制、客服、私域复购与跨省销售税自动入账</span>
 </div>
 
 <div class="awb-tools-grid">
 
-  <!-- 1. Shopify -->
-  <div class="awb-tool-card">
+  <!-- 1. Shopify (醒目主推英雄卡片) -->
+  <div class="awb-tool-card featured" style="background: linear-gradient(135deg, #FDFBF7 0%, #F5EFEB 100%); border: 2px solid #8A2520;">
     <div>
-      <span class="awb-tool-tag">01 · 电商建站首选底座</span>
+      <span class="awb-tool-tag" style="background: #8A2520;">🔥 核心首推 · 建站标配</span>
       <h3 class="awb-tool-title">Shopify</h3>
       <p class="awb-tool-desc">
         北美独立站标配底座。开启单页结账（One-page Checkout）与 Shop Pay，移动端结账转化率最高提升 1.91 倍，100% 沉淀归属自己的第一方客户邮箱资产。
@@ -178,15 +165,32 @@ author_profile: true
         <strong>适用场景：</strong>DTC 品牌出海、POD 定制、垂直零售独立站（刷卡费率 2.9% + 30¢）
       </div>
     </div>
-    <a class="awb-tool-btn" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener">
+    <a class="awb-tool-btn" style="background: #8A2520;" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener">
       开启 Shopify 专属试用 →
     </a>
   </div>
 
-  <!-- 2. Printify -->
+  <!-- 2. Klaviyo (醒目主推英雄卡片) -->
+  <div class="awb-tool-card featured" style="background: linear-gradient(135deg, #FDFBF7 0%, #F5EFEB 100%); border: 2px solid #8A2520;">
+    <div>
+      <span class="awb-tool-tag" style="background: #8A2520;">💰 核心首推 · 弃单挽回</span>
+      <h3 class="awb-tool-title">Klaviyo</h3>
+      <p class="awb-tool-desc">
+        与 Shopify 深度打通的电商自动化营销引擎。部署「黄金 1 小时首触达 + 48 小时三阶梯序列」，自动追回 10%–15% 流失订单，贡献独立站 25%–40% 被动营收。
+      </p>
+      <div class="awb-tool-meta">
+        <strong>核心价值：</strong>250 活跃档案内免费，私域复购与邮件变现的最强杀器
+      </div>
+    </div>
+    <a class="awb-tool-btn" style="background: #8A2520;" href="https://www.klaviyo.com/partner/signup?utm_source=001iL00000NU6AoQAL&utm_medium=partner" target="_blank" rel="sponsored noopener">
+      配置 Klaviyo 弃单挽回流 →
+    </a>
+  </div>
+
+  <!-- 3. Printify -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">02 · POD 按需印刷履约</span>
+      <span class="awb-tool-tag">03 · POD 按需印刷履约</span>
       <h3 class="awb-tool-title">Printify</h3>
       <p class="awb-tool-desc">
         零库存按需印制平台。自动同步 Shopify 订单并开启美加本地路由（Local Routing），调用北美本地工厂印制代发，无需提前备货或手动打包。
@@ -200,10 +204,10 @@ author_profile: true
     </a>
   </div>
 
-  <!-- 3. Gorgias -->
+  <!-- 4. Gorgias -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">03 · 电商智能客服工作台</span>
+      <span class="awb-tool-tag">04 · 电商智能客服工作台</span>
       <h3 class="awb-tool-title">Gorgias</h3>
       <p class="awb-tool-desc">
         专为 Shopify 深度定制的客服中枢。在对话窗口直接读取订单、一键退款或修改收货地址，配合 AI 规则自动回复 60% 以上的物流查单咨询。
@@ -217,10 +221,10 @@ author_profile: true
     </a>
   </div>
 
-  <!-- 4. Synder -->
+  <!-- 5. Synder -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">04 · 电商多渠道财税对账</span>
+      <span class="awb-tool-tag">05 · 电商多渠道财税对账</span>
       <h3 class="awb-tool-title">Synder</h3>
       <p class="awb-tool-desc">
         连接 Shopify / Stripe / PayPal 与会计软件的自动对账中间件。自动拆解每笔订单的通道手续费、多币种汇率以及加拿大各省 GST/PST/HST 税项。
@@ -249,7 +253,7 @@ author_profile: true
   <!-- 5. Google Workspace -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">05 · 企业级域名邮箱</span>
+      <span class="awb-tool-tag">06 · 企业级域名邮箱</span>
       <h3 class="awb-tool-title">Google Workspace</h3>
       <p class="awb-tool-desc">
         告别免费个人后缀邮箱。配置专属企业域名邮箱（name@yourdomain.com），配齐 SPF/DKIM 发信认证，深度打通 Google Drive 与商业日历。
@@ -266,7 +270,7 @@ author_profile: true
   <!-- 6. Bluehost -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">06 · 北美老牌 WordPress 主机</span>
+      <span class="awb-tool-tag">07 · 北美老牌 WordPress 主机</span>
       <h3 class="awb-tool-title">Bluehost</h3>
       <p class="awb-tool-desc">
         WordPress 官方首推北美云主机。一键部署企业展示官网、在线预约博客或 WooCommerce 商城，首年赠送免费独立域名、免费 SSL 证书与全天候北美英文客服。
@@ -283,13 +287,13 @@ author_profile: true
   <!-- 7. Hostinger -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">07 · 高性价比极速云主机</span>
+      <span class="awb-tool-tag">08 · 高性价比极速云主机</span>
       <h3 class="awb-tool-title">Hostinger</h3>
       <p class="awb-tool-desc">
         轻量内容站与初创官网高性价比主机。内置 AI 一键建站生成器、免费域名与全球 CDN 加速节点，低月费即可实现欧美毫秒级加载速度。
       </p>
       <div class="awb-tool-meta">
-        <strong>成本优势：</strong>极低入门预算，适合一人公司快速测试多个垂直利基站点
+        <strong>成本优势：</strong>极低入门预算，适合一人公司快速测试多个初创站点
       </div>
     </div>
     <a class="awb-tool-btn" href="https://hostinger.com/?REFERRALCODE=aswebuild/" target="_blank" rel="sponsored noopener">
@@ -300,24 +304,24 @@ author_profile: true
   <!-- 8. WhatConverts -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">08 · 本地获客电话与表单归因</span>
+      <span class="awb-tool-tag">09 · 本地获客电话与表单归因</span>
       <h3 class="awb-tool-title">WhatConverts</h3>
       <p class="awb-tool-desc">
         本地服务业投流必备追踪系统。精准追踪每一通咨询电话、短信与预约表单究竟来自哪个 Google 搜索关键词或社媒广告，自动过滤无效推销电话。
       </p>
       <div class="awb-tool-meta">
-        <strong>适用场景：</strong>家居保洁、装修水暖、医美诊所、律所与会计事务所获客归因
+        <strong>适用场景：</strong>家居保洁、装修水暖、医美诊所、律所与会计事务所生意来源
       </div>
     </div>
     <a class="awb-tool-btn" href="https://partners.whatconverts.com/aswebuild" target="_blank" rel="sponsored noopener">
-      追踪高意向客户询盘来源 →
+      追踪客户咨询来源 →
     </a>
   </div>
 
   <!-- 9. ClickUp -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">09 · 全能项目与 SOP 知识库</span>
+      <span class="awb-tool-tag">10 · 全能项目与 SOP 知识库</span>
       <h3 class="awb-tool-title">ClickUp</h3>
       <p class="awb-tool-desc">
         将团队 SOP 文档、任务看板与目标追踪融为一体的效率中枢。把日常运营沉淀为标准化清单，让新员工或远程助理按步骤交付。
@@ -346,7 +350,7 @@ author_profile: true
   <!-- 10. monday.com -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">10 · 可视化业务流中枢</span>
+      <span class="awb-tool-tag">11 · 可视化业务流中枢</span>
       <h3 class="awb-tool-title">monday.com</h3>
       <p class="awb-tool-desc">
         直观的模块化业务管理平台。通过状态变更自动触发跨部门提醒、客户邮件通知与进度归档，一眼掌握数十个并行客户项目的交付节点。
@@ -363,7 +367,7 @@ author_profile: true
   <!-- 11. Gusto -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">11 · 北美自动化薪酬与税控</span>
+      <span class="awb-tool-tag">12 · 北美自动化薪酬与税控</span>
       <h3 class="awb-tool-title">Gusto</h3>
       <p class="awb-tool-desc">
         北美小微企业首选 Payroll 薪酬平台。自动计算发薪预扣税、生成合规工资单（Pay Stubs）、执行银行 Direct Deposit 并处理员工福利与税务申报。
@@ -380,7 +384,7 @@ author_profile: true
   <!-- 12. Deel -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">12 · 全球跨国雇佣与远程发薪</span>
+      <span class="awb-tool-tag">13 · 全球跨国雇佣与远程发薪</span>
       <h3 class="awb-tool-title">Deel</h3>
       <p class="awb-tool-desc">
         支持在 150+ 个国家合规签约海外独立承包商（Contractors）或全职远程员工（EOR）。内置符合各国劳动法的标准合同模板，支持多币种一键批量结算。
@@ -397,7 +401,7 @@ author_profile: true
   <!-- 13. Jibble -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">13 · 移动 GPS 打卡与工时追踪</span>
+      <span class="awb-tool-tag">14 · 移动 GPS 打卡与工时追踪</span>
       <h3 class="awb-tool-title">Jibble</h3>
       <p class="awb-tool-desc">
         外勤与门店员工考勤利器。支持手机端 GPS 地理围栏打卡、人脸识别与项目工时统计，自动折算正常工时与加班费并导出发薪报表。
@@ -426,7 +430,7 @@ author_profile: true
   <!-- 14. Dubsado -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">14 · 专业服务提案与自动收款</span>
+      <span class="awb-tool-tag">15 · 专业服务提案与自动收款</span>
       <h3 class="awb-tool-title">Dubsado</h3>
       <p class="awb-tool-desc">
         独立顾问、设计工作室与高客单服务商必配客户端系统。将报价单、具备法律效力的电子合同签署、定金预收与分期自动扣款串成闭环。
@@ -443,7 +447,7 @@ author_profile: true
   <!-- 15. Emergent -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">15 · AI 对话式全栈应用开发</span>
+      <span class="awb-tool-tag">16 · AI 对话式全栈应用开发</span>
       <h3 class="awb-tool-title">Emergent</h3>
       <p class="awb-tool-desc">
         新一代 Agentic Vibe Coding 平台。无需编写复杂代码，通过自然语言对话即可构建包含前后端数据库与支付逻辑的生产级 Web 应用或内部业务工具。
@@ -460,7 +464,7 @@ author_profile: true
   <!-- 16. ElevenLabs -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">16 · AI 语音克隆与多语配音</span>
+      <span class="awb-tool-tag">17 · AI 语音克隆与多语配音</span>
       <h3 class="awb-tool-title">ElevenLabs</h3>
       <p class="awb-tool-desc">
         全球头部 AI 音频生成平台。支持高保真个人声音克隆与地道美式英语、法语配音，几分钟内批量生成北美社媒短视频旁白与产品演示解说。
@@ -477,7 +481,7 @@ author_profile: true
   <!-- 17. Flippa.com -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">17 · 数字资产并购与资本退出</span>
+      <span class="awb-tool-tag">18 · 数字资产并购与资本退出</span>
       <h3 class="awb-tool-title">Flippa.com</h3>
       <p class="awb-tool-desc">
         全球最大的独立站、内容博客与 Micro-SaaS 交易市场。既可收购自带稳定现金流的成熟站点，也可将跑通的线上生意挂牌出售给全球买家实现资本退出。
@@ -494,5 +498,5 @@ author_profile: true
 </div>
 
 <div class="awb-disclosure">
-  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
+  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，LinQreative / aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
 </div>

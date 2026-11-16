@@ -6,6 +6,11 @@ author_profile: true
 ---
 
 <style>
+  /* 突破主题限制：桌面端通栏加宽，告别窄屏压抑感 */
+  .initial-content, .page {
+    max-width: 1140px !important;
+  }
+
   .awb-tools-intro {
     margin: 0 0 24px 0;
     padding: 0 0 14px 0;
@@ -143,6 +148,14 @@ author_profile: true
   这里汇集了 <strong>aswebuild（北美小生意经）</strong> 在过往商业拆解中反复实测、最适合北美华人独立卖家、本地服务业、专业顾问与一人公司的 17 款核心软件栈。拒绝繁琐低效的软件堆砌，用成熟工具放大极简人效。
 </div>
 
+<!-- 顶部 Shopify 联盟自适应官方横幅（已内置专属追踪代码） -->
+<div class="awb-banner-wrap">
+  <a rel="sponsored noopener" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" id="3323859">
+    <img class="banner-img" src="//a.impactradius-go.com/display-ad/13624-3323859" alt="Start your Shopify store" />
+  </a>
+  <img height="0" width="0" src="https://imp.pxf.io/i/58724" style="position:absolute;visibility:hidden;border:none;" alt="" />
+</div>
+
 <!-- ============================================== -->
 <!-- 模块 01：DTC 电商、零库存供应链与财税对账 (4款) -->
 <!-- ============================================== -->
@@ -156,17 +169,17 @@ author_profile: true
   <!-- 1. Shopify -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">01 · 电商建站首选</span>
+      <span class="awb-tool-tag">01 · 电商建站首选底座</span>
       <h3 class="awb-tool-title">Shopify</h3>
       <p class="awb-tool-desc">
-        北美独立站标配。开启单页结账（One-page Checkout）与 Shop Pay，移动端结账转化率最高提升 1.91 倍，100% 沉淀归属自己的第一方客户邮箱资产。
+        北美独立站标配底座。开启单页结账（One-page Checkout）与 Shop Pay，移动端结账转化率最高提升 1.91 倍，100% 沉淀归属自己的第一方客户邮箱资产。
       </p>
       <div class="awb-tool-meta">
         <strong>适用场景：</strong>DTC 品牌出海、POD 定制、垂直零售独立站（刷卡费率 2.9% + 30¢）
       </div>
     </div>
     <a class="awb-tool-btn" href="https://shopify.pxf.io/c/5878481/3323859/13624" target="_blank" rel="sponsored noopener">
-      开启 Shopify 专属试用，前三个月仅1美元 →
+      开启 Shopify 专属试用 →
     </a>
   </div>
 
@@ -182,7 +195,6 @@ author_profile: true
         <strong>核心优势：</strong>北美本土工厂直发，规避跨境关税延误与库存积压风险
       </div>
     </div>
-    <!-- 替换为你的 Printify 推广链接 -->
     <a class="awb-tool-btn" href="https://try.printify.com/aswebuild" target="_blank" rel="sponsored noopener">
       对接 Printify 本地代发流水线 →
     </a>
@@ -200,7 +212,6 @@ author_profile: true
         <strong>人效杠杆：</strong>一人即可高效统管独立站邮件、社媒评论与私信客服
       </div>
     </div>
-    <!-- 替换为你的 Gorgias 推广链接 -->
     <a class="awb-tool-btn" href="https://partner.gorgias.com/aswebuild" target="_blank" rel="sponsored noopener">
       体验 Gorgias 电商客服系统 →
     </a>
@@ -218,7 +229,6 @@ author_profile: true
         <strong>合规省心：</strong>告别月底手动导表对账，报税季会计直接读取零差错底稿
       </div>
     </div>
-    <!-- 替换为你的 Synder 推广链接 -->
     <a class="awb-tool-btn" href="https://partnerstack.synder.com/aswebuild" target="_blank" rel="sponsored noopener">
       配置 Synder 自动电商对账 →
     </a>
@@ -248,7 +258,6 @@ author_profile: true
         <strong>专业防雷：</strong>我们用了20年多的企业电子邮箱等一揽子营运工具。
       </div>
     </div>
-    <!-- 替换为你的 Google Workspace 推广链接 -->
     <a class="awb-tool-btn" href="https://sharegoogleworkspace.advocate.impact.com/mzZtqKB" target="_blank" rel="sponsored noopener">
       开通企业专属 Google 邮箱 →
     </a>
@@ -266,7 +275,6 @@ author_profile: true
         <strong>适用场景：</strong>本地服务业品牌官网、SEO 内容矩阵与海外独立站起步
       </div>
     </div>
-    <!-- 替换为你的 Bluehost 推广链接 -->
     <a class="awb-tool-btn" href="https://bluehost.sjv.io/aswebuild" target="_blank" rel="sponsored noopener">
       开通 Bluehost 建站与免费域名 →
     </a>
@@ -281,10 +289,9 @@ author_profile: true
         轻量内容站与初创官网高性价比主机。内置 AI 一键建站生成器、免费域名与全球 CDN 加速节点，低月费即可实现欧美毫秒级加载速度。
       </p>
       <div class="awb-tool-meta">
-        <strong>成本优势：</strong>极低入门预算，适合一人公司快速测试多个初创站点
+        <strong>成本优势：</strong>极低入门预算，适合一人公司快速测试多个垂直利基站点
       </div>
     </div>
-    <!-- 替换为你的 Hostinger 推广链接 -->
     <a class="awb-tool-btn" href="https://hostinger.com/?REFERRALCODE=aswebuild/" target="_blank" rel="sponsored noopener">
       选购 Hostinger 高速主机 →
     </a>
@@ -299,12 +306,11 @@ author_profile: true
         本地服务业投流必备追踪系统。精准追踪每一通咨询电话、短信与预约表单究竟来自哪个 Google 搜索关键词或社媒广告，自动过滤无效推销电话。
       </p>
       <div class="awb-tool-meta">
-        <strong>适用场景：</strong>家居保洁、装修水暖、医美诊所、律所与会计事务所生意来源
+        <strong>适用场景：</strong>家居保洁、装修水暖、医美诊所、律所与会计事务所获客归因
       </div>
     </div>
-    <!-- 替换为你的 WhatConverts 推广链接 -->
     <a class="awb-tool-btn" href="https://partners.whatconverts.com/aswebuild" target="_blank" rel="sponsored noopener">
-      追踪客户咨询来源 →
+      追踪高意向客户询盘来源 →
     </a>
   </div>
 
@@ -320,7 +326,6 @@ author_profile: true
         <strong>资产沉淀：</strong>脱离“老板事必躬亲”，构建可复制的标准化企业运营手册
       </div>
     </div>
-    <!-- 替换为你的 ClickUp 推广链接 -->
     <a class="awb-tool-btn" href="https://try.web.clickup.com/aswebuild" target="_blank" rel="sponsored noopener">
       搭建 ClickUp 团队 SOP 库 →
     </a>
@@ -350,7 +355,6 @@ author_profile: true
         <strong>适用场景：</strong>工程装修排期、营销代运营机构（Agency）多客户交付管理
       </div>
     </div>
-    <!-- 替换为你的 monday.com 推广链接 -->
     <a class="awb-tool-btn" href="https://try.monday.com/aswebuild" target="_blank" rel="sponsored noopener">
       搭建 monday.com 自动化看板 →
     </a>
@@ -368,7 +372,6 @@ author_profile: true
         <strong>合规护城河：</strong>彻底告别手工算薪失误与私下转账引发的税局稽查风险
       </div>
     </div>
-    <!-- 替换为你的 Gusto 推广链接 -->
     <a class="awb-tool-btn" href="https://get.gusto.com/bfkzrsqczcv1" target="_blank" rel="sponsored noopener">
       使用 Gusto 自动合规发薪 →
     </a>
@@ -386,7 +389,6 @@ author_profile: true
         <strong>全球套利：</strong>北美公司合规雇佣海外设计师、剪辑师与研发团队的首选平台
       </div>
     </div>
-    <!-- 替换为你的 Deel 推广链接 -->
     <a class="awb-tool-btn" href="https://get.deel.com/aswebuild" target="_blank" rel="sponsored noopener">
       通过 Deel 合规雇佣全球人才 →
     </a>
@@ -404,7 +406,6 @@ author_profile: true
         <strong>留痕凭证：</strong>为保洁、物流、装修与零售店沉淀法定工时底稿，杜绝劳资纠纷
       </div>
     </div>
-    <!-- 替换为你的 Jibble 推广链接 -->
     <a class="awb-tool-btn" href="https://affiliate.jibble.io/aswebuild" target="_blank" rel="sponsored noopener">
       免费开通 Jibble 智能考勤 →
     </a>
@@ -434,7 +435,6 @@ author_profile: true
         <strong>锁死现金流：</strong>先签线上合同并绑定自动扣款再开工，彻底杜绝尾款拖欠
       </div>
     </div>
-    <!-- 替换为你的 Dubsado 推广链接 -->
     <a class="awb-tool-btn" href="https://www.dubsado.com/?c=qilin21&via=qilin21" target="_blank" rel="sponsored noopener">
       配置 Dubsado 签约收款闭环 →
     </a>
@@ -452,7 +452,6 @@ author_profile: true
         <strong>超级个体武器：</strong>零外包开发费，一人极速上线垂直行业小工具与预约门户
       </div>
     </div>
-    <!-- 替换为你的 Emergent 推广链接 -->
     <a class="awb-tool-btn" href="https://get.emergent.sh/aswebuild" target="_blank" rel="sponsored noopener">
       体验 Emergent AI 全栈开发 →
     </a>
@@ -470,7 +469,6 @@ author_profile: true
         <strong>出海降维：</strong>告别英语口音顾虑，低成本批量生产 TikTok / Reels 营销素材
       </div>
     </div>
-    <!-- 替换为你的 ElevenLabs 推广链接 -->
     <a class="awb-tool-btn" href="https://try.elevenlabs.io/aswebuild" target="_blank" rel="sponsored noopener">
       使用 ElevenLabs 生成地道配音 →
     </a>
@@ -488,7 +486,6 @@ author_profile: true
         <strong>终极变现：</strong>从第一天起按“可转让资产”标准建账与写 SOP，享高倍估值溢价
       </div>
     </div>
-    <!-- 替换为你的 Flippa 推广链接 -->
     <a class="awb-tool-btn" href="https://referral.flippa.com/aswebuild" target="_blank" rel="sponsored noopener">
       前往 Flippa 评估与交易商业资产 →
     </a>
@@ -497,5 +494,5 @@ author_profile: true
 </div>
 
 <div class="awb-disclosure">
-  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，LinQreative / aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
+  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
 </div>

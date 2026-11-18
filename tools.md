@@ -418,19 +418,36 @@ author_profile: true
 </div>
 
 <!-- ============================================== -->
-<!-- 模块 04：客户锁单、AI 原生开发与资本退出 (4款) -->
+<!-- 模块 04：客户增长、AI 原生开发与资本退出 (5款) -->
 <!-- ============================================== -->
 <div class="awb-section-header">
-  <h2>04 · 客户锁单、AI 原生开发与资本退出</h2>
-  <span>用电子合同与自动扣款锁死现金流，用 AI 打造高估值可出售数字资产</span>
+  <h2>04 · 客户增长、AI 原生开发与资本退出</h2>
+  <span>用专业 CRM 与电子合同锁死高价值客户，用 AI 打造高估值可出售数字资产</span>
 </div>
 
 <div class="awb-tools-grid">
 
-  <!-- 14. Dubsado -->
+  <!-- 15. Salesforce For Small Business -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">15 · 专业服务提案与自动收款</span>
+      <span class="awb-tool-tag">15 · 全球第一中小企业 CRM</span>
+      <h3 class="awb-tool-title">Salesforce For Small Business</h3>
+      <p class="awb-tool-desc">
+        专为成长型小企业与 B2B 团队打造的轻量化智能 CRM（Starter / Pro Suite）。将线索跟进、销售管道、报价开票与邮件营销整合在同一后台，内置 AI 助手自动整理客户沟通摘要，告别 Excel 表格丢单。
+      </p>
+      <div class="awb-tool-meta">
+        <strong>适用场景：</strong>B2B 贸易批发、本地商业服务、咨询与成长型销售团队
+      </div>
+    </div>
+    <a class="awb-tool-btn" href="https://salesforce.partnerlinks.io/aswebuild" target="_blank" rel="sponsored noopener">
+      免费试用 Salesforce 小企业版 →
+    </a>
+  </div>
+
+  <!-- 16. Dubsado -->
+  <div class="awb-tool-card">
+    <div>
+      <span class="awb-tool-tag">16 · 专业服务提案与自动收款</span>
       <h3 class="awb-tool-title">Dubsado</h3>
       <p class="awb-tool-desc">
         独立顾问、设计工作室与高客单服务商必配客户端系统。将报价单、具备法律效力的电子合同签署、定金预收与分期自动扣款串成闭环。
@@ -444,10 +461,10 @@ author_profile: true
     </a>
   </div>
 
-  <!-- 15. Emergent -->
+  <!-- 17. Emergent -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">16 · AI 对话式全栈应用开发</span>
+      <span class="awb-tool-tag">17 · AI 对话式全栈应用开发</span>
       <h3 class="awb-tool-title">Emergent</h3>
       <p class="awb-tool-desc">
         新一代 Agentic Vibe Coding 平台。无需编写复杂代码，通过自然语言对话即可构建包含前后端数据库与支付逻辑的生产级 Web 应用或内部业务工具。
@@ -461,10 +478,10 @@ author_profile: true
     </a>
   </div>
 
-  <!-- 16. ElevenLabs -->
+  <!-- 18. ElevenLabs -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">17 · AI 语音克隆与多语配音</span>
+      <span class="awb-tool-tag">18 · AI 语音克隆与多语配音</span>
       <h3 class="awb-tool-title">ElevenLabs</h3>
       <p class="awb-tool-desc">
         全球头部 AI 音频生成平台。支持高保真个人声音克隆与地道美式英语、法语配音，几分钟内批量生成北美社媒短视频旁白与产品演示解说。
@@ -478,10 +495,10 @@ author_profile: true
     </a>
   </div>
 
-  <!-- 17. Flippa.com -->
+  <!-- 19. Flippa.com -->
   <div class="awb-tool-card">
     <div>
-      <span class="awb-tool-tag">18 · 数字资产并购与资本退出</span>
+      <span class="awb-tool-tag">19 · 数字资产并购与资本退出</span>
       <h3 class="awb-tool-title">Flippa.com</h3>
       <p class="awb-tool-desc">
         全球最大的独立站、内容博客与 Micro-SaaS 交易市场。既可收购自带稳定现金流的成熟站点，也可将跑通的线上生意挂牌出售给全球买家实现资本退出。
@@ -498,5 +515,5 @@ author_profile: true
 </div>
 
 <div class="awb-disclosure">
-  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，LinQreative / aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
+  <strong>合规关联声明（Material Connection & Affiliate Disclosure）：</strong>根据加拿大竞争局（Competition Bureau）与广告标准准则，特此声明本页部分链接为合作伙伴推广链接（Affiliate Links）。当您点击这些链接并完成注册或付费订阅时，aswebuild 可能会收到由软件服务商支付的推荐佣金。这不会增加您的购买成本，且往往附带专属试用期或费率优惠。本页工具均基于北美小微商业实操场景独立筛选，不构成具体的法律、会计或税务建议。
 </div>

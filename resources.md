@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "北美创业资源导航"
+title: "北美创业资源：合规与实战导航"
 permalink: /resources/
 author_profile: true
-classes: wide
 ---
 
 <style>
+
   /* 1. 突破主题限制：桌面端通栏加宽，保持与工具箱完全一致的宽度 */
   @media (min-width: 64em) {
     #main {
@@ -22,148 +22,256 @@ classes: wide
       max-width: 100% !important;
     }
   }
-
-  /* 顶部导语区：杂志风极简下划线 */
-  .awb-tools-intro {
-    margin: 0 0 28px 0;
-    padding: 0 0 18px 0;
-    border-bottom: 2px solid #141413;
-    font-size: 16px;
+  .awb-res-intro {
+    margin: 0 0 20px 0;
+    padding: 0 0 16px 0;
+    border-bottom: 1.5px solid #141413;
+    font-size: 15px;
     color: #2C2B29;
-    line-height: 1.7;
+    line-height: 1.65;
   }
-  .awb-inline-disclosure {
-    display: block;
-    margin-top: 6px;
+  .awb-res-badge {
+    display: inline-block;
+    background: #8A2520;
+    color: #FFFFFF;
+    font-size: 11.5px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  /* 顶部快速锚点导航 */
+  .awb-quick-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background: #F8F7F3;
+    border: 1.5px solid #141413;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 28px;
+  }
+  .awb-quick-nav a {
     font-size: 12.5px;
-    color: #7A7770;
+    font-weight: 600;
+    color: #141413 !important;
+    text-decoration: none !important;
+    background: #FFFFFF;
+    border: 1px solid #D8D4CC;
+    padding: 5px 11px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
   }
-
-  /* 模块大标题：经典的勃艮第红底线分栏 */
-  .awb-section-header {
-    margin: 48px 0 20px 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #DCD8CF;
+  .awb-quick-nav a:hover {
+    background: #8A2520;
+    color: #FFFFFF !important;
+    border-color: #8A2520;
+  }
+  /* 章节标题 */
+  .awb-sec-title {
+    margin: 42px 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #8A2520;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
   }
-  .awb-section-header h2 {
-    font-size: 21px;
+  .awb-sec-title h2 {
+    font-size: 20px;
     font-weight: 800;
     color: #141413;
     margin: 0;
-    letter-spacing: -0.01em;
   }
-  .awb-section-header span {
-    font-size: 13.5px;
+  .awb-sec-title span {
+    font-size: 12.5px;
     color: #6E6E6A;
   }
-
-  /* 自适应多列网格：自动适配大屏、平板和手机 */
-  .awb-tools-grid {
+  /* 交互式计算器容器 */
+  .awb-calc-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    gap: 24px;
-    margin: 0 0 20px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
   }
-
-  /* 极简无框卡片：浅米灰底色，悬停时轻微上浮与微阴影 */
-  .awb-tool-card {
-    background: #F6F4EF;
-    border: none;
-    border-radius: 10px;
-    padding: 26px 24px;
+  .awb-calc-box {
+    background: #F8F7F3;
+    border: 2px solid #141413;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .awb-calc-box h3 {
+    font-size: 16.5px;
+    font-weight: 800;
+    color: #141413;
+    margin: 0 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #D8D4CC;
+  }
+  .awb-form-row {
+    margin-bottom: 12px;
+  }
+  .awb-form-row label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #2C2B29;
+    margin-bottom: 4px;
+  }
+  .awb-form-row select,
+  .awb-form-row input {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    background: #FFFFFF;
+    border: 1px solid #141413;
+    border-radius: 4px;
+    font-size: 13.5px;
+    color: #141413;
+    box-sizing: border-box;
+  }
+  .awb-calc-result {
+    background: #FFFFFF;
+    border-left: 4px solid #8A2520;
+    border-top: 1px solid #D8D4CC;
+    border-right: 1px solid #D8D4CC;
+    border-bottom: 1px solid #D8D4CC;
+    padding: 12px 14px;
+    border-radius: 0 4px 4px 0;
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #141413;
+  }
+  /* 知识卡片网格 */
+  .awb-res-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+  .awb-res-card {
+    background: #F8F7F3;
+    border: 1.5px solid #141413;
+    border-radius: 8px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
   }
-  .awb-tool-card:hover {
-    background: #EFECE4;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 24px rgba(20, 20, 19, 0.06);
-  }
-
-  /* 核心主推款卡片：左侧微带枣红竖条与微暖背景高亮 */
-  .awb-tool-card.featured {
-    background: #F4ECE8;
-    border-left: 5px solid #8A2520;
-  }
-
-  /* 标签：小红标文字 */
-  .awb-tool-kicker {
-    font-size: 12px;
+  .awb-res-tag {
+    display: inline-block;
+    background: #8A2520;
+    color: #FFFFFF;
+    font-size: 11px;
     font-weight: 700;
-    color: #8A2520;
-    letter-spacing: 0.04em;
-    margin-bottom: 6px;
-    display: block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    margin-bottom: 10px;
   }
-
-  /* 资源名称标题 */
-  .awb-tool-title {
-    font-size: 21px !important;
-    font-weight: 900 !important;
-    color: #141413 !important;
-    margin: 0 0 10px 0 !important;
-    line-height: 1.25 !important;
-    letter-spacing: -0.02em;
-  }
-
-  /* 资源描述文本 */
-  .awb-tool-desc {
-    font-size: 14.5px;
-    color: #2C2B29;
-    line-height: 1.65;
-    margin: 0 0 14px 0;
-  }
-
-  /* 底部备注/场景说明 */
-  .awb-tool-note {
-    font-size: 12.5px;
-    color: #6E6A63;
-    margin: 0 0 20px 0;
-    line-height: 1.5;
-  }
-  .awb-tool-note strong {
+  .awb-res-card h3 {
+    font-size: 17px;
+    font-weight: 800;
     color: #141413;
+    margin: 0 0 10px 0;
+    line-height: 1.35;
   }
-
-  /* 统一按钮样式 */
-  .awb-tool-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    align-self: flex-start;
+  .awb-res-list {
+    margin: 0 0 16px 0;
+    padding-left: 18px;
+    font-size: 13.5px;
+    color: #2B2B2B;
+    line-height: 1.6;
+  }
+  .awb-res-list li {
+    margin-bottom: 6px;
+  }
+  .awb-res-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px dashed #D8D4CC;
+  }
+  .awb-link-btn {
+    display: inline-block;
     background: #141413;
     color: #FFFFFF !important;
     text-decoration: none !important;
-    font-size: 13.5px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 9px 18px;
-    border-radius: 6px;
+    padding: 6px 12px;
+    border-radius: 4px;
     transition: background 0.15s ease;
   }
-  .awb-tool-btn:hover {
+  .awb-link-btn:hover {
     background: #8A2520;
   }
-  .awb-tool-card.featured .awb-tool-btn {
-    background: #8A2520;
+  .awb-link-btn.secondary {
+    background: #FFFFFF;
+    color: #141413 !important;
+    border: 1px solid #141413;
   }
-  .awb-tool-card.featured .awb-tool-btn:hover {
+  .awb-link-btn.secondary:hover {
     background: #141413;
+    color: #FFFFFF !important;
   }
-
-  /* 底部声明 */
-  .awb-disclosure {
+  /* 站内专栏文库归档盒 */
+  .awb-archive-box {
+    background: #FFFFFF;
+    border: 1.5px solid #DCDCD6;
+    border-left: 4px solid #141413;
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin: 14px 0 26px 0;
+  }
+  .awb-archive-box h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #141413;
+    margin: 0 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #EAEAE4;
+  }
+  .awb-archive-sub {
+    font-size: 13px;
+    font-weight: 700;
+    color: #8A2520;
+    margin: 12px 0 8px 0;
+  }
+  .awb-article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 8px 20px;
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+  }
+  .awb-article-grid li {
+    margin: 0 !important;
+    padding: 3px 0 !important;
+    font-size: 13.5px !important;
+    line-height: 1.5 !important;
+  }
+  .awb-article-grid li a {
+    color: #2C2B29 !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .awb-article-grid li a:hover {
+    color: #8A2520 !important;
+    border-bottom-color: #8A2520;
+  }
+  .awb-res-footer {
     font-size: 12px;
-    color: #7A7770;
-    border-top: 1px solid #E2DFD8;
-    padding-top: 20px;
-    margin-top: 56px;
+    color: #6E6E6A;
+    border-top: 1px solid #D8D4CC;
+    padding-top: 16px;
+    margin-top: 40px;
     line-height: 1.6;
   }
 </style>

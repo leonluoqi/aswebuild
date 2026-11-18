@@ -170,6 +170,13 @@
     color: #262626 !important;
     font-size: 15px !important;
   }
+
+  /* 平板与手机模式（屏幕宽度小于 1024px）：彻底隐藏左侧栏及“关注”按钮 */
+  @media (max-width: 1023px) {
+    .sidebar {
+      display: none !important;
+    }
+  }
 </style>
 
 <script>

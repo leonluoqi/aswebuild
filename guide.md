@@ -280,7 +280,7 @@ toc: false
   <!-- 模块一：01 - 08 -->
   <section id="module-1" class="module-section">
     <div class="module-header">
-      <h2 class="module-title">模块一｜企业初创与架构筹备篇</h2>
+      <h2 class="module-title">一 企业初创与架构筹备篇</h2>
       <span class="module-meta">MODULE 01 · ISSUES 01–08</span>
     </div>
     <ul class="guide-list">
@@ -346,7 +346,7 @@ toc: false
   <!-- 模块二：09 - 20 -->
   <section id="module-2" class="module-section">
     <div class="module-header">
-      <h2 class="module-title">模块二｜日常运营与高效获客篇</h2>
+      <h2 class="module-title">二 日常运营与高效获客篇</h2>
       <span class="module-meta">MODULE 02 · ISSUES 09–20</span>
     </div>
     <ul class="guide-list">
@@ -440,7 +440,7 @@ toc: false
   <!-- 模块三：21 - 28 -->
   <section id="module-3" class="module-section">
     <div class="module-header">
-      <h2 class="module-title">模块三｜突发危机与合规避坑篇</h2>
+      <h2 class="module-title">三 突发危机与合规避坑篇</h2>
       <span class="module-meta">MODULE 03 · ISSUES 21–28</span>
     </div>
     <ul class="guide-list">

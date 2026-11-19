@@ -1,9 +1,11 @@
 # main links
 main:
 
-  - title: "北美创业资源导航"
+  - title: "北美创业资源"
     url: /resources/
   - title: "北美创业工具箱"
+    url: /tools/
+  - title: "加拿大创业手册"
     url: /tools/
   - title: "100个创业案例"
     url: /北美创业案例/

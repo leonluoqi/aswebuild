@@ -2,8 +2,12 @@
 layout: single
 title: "加拿大商业账户开户与资金流避坑"
 permalink: /business/guide/002-business-bank-account-cashflow/
-date: 2026-10-02 09:00:00 -0700
+date: 2026-11-01 09:00:00 -0700
 last_modified_at: 2026-11-19 09:00:00 -0800
+header:
+  image: /assets/images/guide/002-1.jpeg
+  teaser: /assets/images/guide/002-1.jpeg
+  image_description: "商业账户与资金流：TD/RBC 商业开户、E-transfer 限制与 Stripe/Square 避坑"
 categories:
   - 加拿大创业指南
 tags:
@@ -19,7 +23,6 @@ tags:
   - 现金流合规
 ---
 
-![商业账户与资金流：TD/RBC 商业开户、E-transfer 限制与 Stripe/Square 避坑](/assets/images/guide/002-1.jpeg)
 
 大温创业者踩过最冤的一个坑：
 公司刚开业两个月，个人银行账户突然被全部冻结。

@@ -4,6 +4,10 @@ title: "加拿大税务号、海关注册与CARM海关系统配置"
 permalink: /business/guide/003-bn-gst-pst-carm-customs/
 date: 2026-11-01 09:00:00 -0700
 last_modified_at: 2026-11-19 09:00:00 -0800
+header:
+  image: /assets/images/guide/003-1.jpeg
+  teaser: /assets/images/guide/003-1.jpeg
+  image_description: "加拿大税务号与海关注册：BN 号、GST/PST 注册时机与 CARM 海关系统配置"
 categories:
   - 加拿大创业指南
 tags:
@@ -19,7 +23,7 @@ tags:
   - 合规避坑
 ---
 
-![税务号与海关注册：BN 号、GST/PST 注册时机与 CARM 海关系统配置](/assets/images/guide/003-1.jpeg)
+
 
 大温华人做小生意最容易掉进的两个坑：
 一个是“不知道什么时候该收税”，没开税号乱收税，或者达标漏报税，被 CRA 与省财政厅追缴罚款；

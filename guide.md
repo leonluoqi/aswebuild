@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "加拿大大温华人创业通关图文指南手册"
+title: "加拿大创业图文指南手册"
 permalink: /guide/
 author_profile: true
 toc: false
@@ -265,7 +265,7 @@ toc: false
   <!-- 顶部刊头与模块跳转 -->
   <div class="guide-hero">
     <div class="guide-kicker">ASWEBUILD SPECIAL EDITION · 28-PART PLAYBOOK</div>
-    <h1>加拿大大温华人创业通关图文指南手册</h1>
+    <h1>加拿大创业图文指南手册</h1>
     <p class="guide-intro">
       从 216 加元 DIY 公司注册、商业开户、商超进店、B2B 冷邮件获客，到 CRA 稽查自救与 $127.5 万免税退出——全套 28 篇按创业阶段系统拆解，附 2026 最新加拿大及 BC 省官方政策链接与实操。
     </p>

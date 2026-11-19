@@ -4,6 +4,10 @@ title: "加拿大公司注册：联邦 Incorporation vs BC省注册，216 加元
 permalink: /business/guide/001-company-incorporation-diy/
 date: 2026-11-01 09:00:00 -0700
 last_modified_at: 2026-11-19 09:00:00 -0800
+header:
+  image: /assets/images/guide/001-1.jpeg
+  teaser: /assets/images/guide/001-1.jpeg
+  image_description: "公司注册选择：联邦 Incorporation vs BC省注册，216 加元 DIY 全流程"
 categories:
   - 加拿大创业指南
 tags:
@@ -18,7 +22,6 @@ tags:
   - 加拿大税务
 ---
 
-![公司注册选择：联邦 Incorporation vs BC省注册，216 加元 DIY 全流程](/assets/images/guide/001-1.jpeg)
 
 聊过的大温创业者越多，越心疼一件事：
 还没开始赚到一分钱，先被中介收了 1500 刀注册费。

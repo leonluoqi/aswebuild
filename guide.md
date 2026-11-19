@@ -287,56 +287,56 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/001-company-incorporation-diy/">
           <span class="guide-num">01</span>
-          <span class="guide-text">公司注册选择：联邦 Incorporation vs BC省注册，216 加元 DIY 全流程</span>
+          <span class="guide-text">注册｜ 联邦 Incorporation vs BC省注册，216 加元 DIY 全流程</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/002-business-bank-account-cashflow/">
           <span class="guide-num">02</span>
-          <span class="guide-text">商业账户与资金流：TD/RBC 商业开户、E-transfer 限制与 Stripe/Square 避坑</span>
+          <span class="guide-text">开户｜ 商业账户与资金流：TD/RBC 商业开户、E-transfer 限制与 Stripe/Square 避坑</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/003-bn-gst-pst-carm-customs/">
           <span class="guide-num">03</span>
-          <span class="guide-text">税务号与海关注册：BN 号、GST/PST 注册时机与 CARM 海关系统配置</span>
+          <span class="guide-text">税务 ｜ 税务号与海关注册：BN 号、GST/PST 注册时机与 CARM 海关系统配置</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/004-chinese-food-repositioning-mainstream-shelf/">
           <span class="guide-num">04</span>
-          <span class="guide-text">红海选品重塑：如何剔除“亚超低价内卷”，将传统食材推入主流高蛋白/健康货架</span>
+          <span class="guide-text">选品 ｜ 红海选品重塑：如何剔除“亚超低价内卷”，将传统食材推入主流高蛋白/健康货架</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/005-asset-light-mvp-nocode-pod/">
           <span class="guide-num">05</span>
-          <span class="guide-text">轻资产需求验证：用 No-Code 与 POD（按需印刷）做零库存 MVP 需求测试</span>
+          <span class="guide-text">验证｜ 轻资产需求验证：用 No-Code 与 POD（按需印刷）做零库存 MVP 需求测试</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/006-csbfp-bdc-grants-funding/">
           <span class="guide-num">06</span>
-          <span class="guide-text">本地政策资金撬动：CSBFP 贷款、BDC 与非稀释性政府 Grant 申请全景图</span>
+          <span class="guide-text">资金 ｜ 本地政策资金撬动：CSBFP 贷款、BDC 与非稀释性政府Grant申请全景图</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/007-bc-commercial-lease-traps/">
           <span class="guide-num">07</span>
-          <span class="guide-text">商业租赁陷阱：选址评估与 Commercial Lease 商业租约必查的 5 个致命条款</span>
+          <span class="guide-text">租约 ｜ 商业租赁陷阱：选址评估与商业租约必查的 5 个致命条款</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/008-cipo-trademark-brand-protection/">
           <span class="guide-num">08</span>
-          <span class="guide-text">品牌与资产保护：CIPO 加拿大商标注册、域名选择与社交平台矩阵锁名</span>
+          <span class="guide-text">商标 ｜ 品牌与资产保护：CIPO 加拿大商标注册、域名选择与社交平台矩阵锁名</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
@@ -353,84 +353,84 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/009-mainstream-retail-grocery-sell-sheet/">
           <span class="guide-num">09</span>
-          <span class="guide-text">主流商超进店 SOP：制作专业 Sell Sheet、打动买手与进驻连锁超市指南</span>
+          <span class="guide-text">驻店 ｜ 主流商超进店：制作专业Sell Sheet、打动买手与进驻连锁超市指南</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/010-b2b-cold-email-linkedin-growth/">
           <span class="guide-num">10</span>
-          <span class="guide-text">B2B 高客单获客：冷邮件（Cold Email）三段论与 LinkedIn 主页高转化改造</span>
+          <span class="guide-text">获客 ｜ B2B 高客单获客：冷邮件三段论与 LinkedIn 主页高转化改造</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/011-brand-private-traffic-substack/">
           <span class="guide-num">11</span>
-          <span class="guide-text">品牌私域与内容沉淀：告别微信群促销轰炸，用 Substack 与 Build in Public 建构私域护城河</span>
+          <span class="guide-text">私域 ｜ 品牌私域与内容沉淀：用Substack 与 Build in Public 建构私域护城河</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/012-ai-automation-solopreneur-sop/">
           <span class="guide-num">12</span>
-          <span class="guide-text">AI 自动化极简人效：用 Durable、Make 与 n8n 打造 1 人抵 5 人的无人值守接单系统</span>
+          <span class="guide-text">自动化 ｜ AI自动化极简人效：用 Durable、Make 与 n8n 打造 1 人抵 5 人的无人值守接单系统</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/013-english-copywriting-visual-localization/">
           <span class="guide-num">13</span>
-          <span class="guide-text">本地化文案与视觉避坑：北美英文营销 6 大语法雷区与字体/配色本地化 SOP</span>
+          <span class="guide-text">本地化 ｜ 本地化文案与视觉避坑：北美英文营销 6 大语法雷区与字体/配色本地化 SOP</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/014-shopify-klaviyo-abandoned-cart-sop/">
           <span class="guide-num">14</span>
-          <span class="guide-text">独立站与复购引擎：Shopify 结账转化优化与 Klaviyo 弃单挽回 3 步自动化邮件流</span>
+          <span class="guide-text">引流 ｜ 独立站与复购引擎：Shopify 结账转化优化与 Klaviyo 弃单挽回 3 步自动化邮件流</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/015-small-business-bookkeeping-tax-deductions/">
           <span class="guide-num">15</span>
-          <span class="guide-text">财税与记账实操：QuickBooks/Wave 记账流与小企业 20 个年度抵税分类清单</span>
+          <span class="guide-text">报税 ｜ 财税与记账实操：QuickBooks/Wave 记账流与小企业 20 个年度抵税分类清单</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/016-bc-hiring-worksafebc-employment-contract/">
           <span class="guide-num">16</span>
-          <span class="guide-text">合规雇佣与风控：BC 省 WorkSafeBC 投保、雇佣合同防雷与员工福利筹划</span>
+          <span class="guide-text">合规 ｜ 合规雇佣与风控：BC 省 WorkSafeBC 投保、雇佣合同防雷与员工福利筹划</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/017-cross-border-supply-chain-lead-time/">
           <span class="guide-num">17</span>
-          <span class="guide-text">跨境供应链管控：中国代工+加拿大海运清关 60 天安全时间模型与 12 周滚动预测</span>
+          <span class="guide-text">供应链 ｜ 跨境供应链管控：中国代工+加拿大海运清关 60 天安全时间模型与 12 周滚动预测</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/018-price-anchoring-negotiation-sop/">
           <span class="guide-num">18</span>
-          <span class="guide-text">高情商谈判与防砍价：用价格锚定与条件交换守住北美商业利润底线</span>
+          <span class="guide-text">谈判 ｜ 高情商谈判与防砍价：用价格锚定与条件交换守住北美商业利润底线</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/019-local-home-service-productized-dispatch/">
           <span class="guide-num">19</span>
-          <span class="guide-text">本地上门服务规模化：告别按小时卖体力，用服务产品化与自动派单系统赚取 50% 毛利</span>
+          <span class="guide-text">规模化 ｜ 本地上门服务规模化：告别按小时卖体力，用服务产品化与自动派单系统赚取 50% 毛利</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/020-vancouver-farmers-market-popup-mvp/">
           <span class="guide-num">20</span>
-          <span class="guide-text">农夫市集与快闪店：租店面之前先花 $100 摆摊，完成低成本测款与私域沉淀</span>
+          <span class="guide-text">进社区 ｜ 农夫市集与快闪店：租店面之前先花 $100 摆摊，完成低成本测款与私域沉淀</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
@@ -447,56 +447,56 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/021-bc-food-safety-health-inspection-sop/">
           <span class="guide-num">21</span>
-          <span class="guide-text">食品安全与监管危机：卫生局检查合规、餐盒存储风险与餐饮创业避雷</span>
+          <span class="guide-text">监管 ｜ 食品安全与监管危机：卫生局检查合规、餐盒存储风险与餐饮创业避雷</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/022-ecommerce-suspension-poa-data-decoupling/">
           <span class="guide-num">22</span>
-          <span class="guide-text">电商平台封店自救：亚马逊/电商账号下架申诉与第一方数据备份解耦</span>
+          <span class="guide-text">自救 ｜ 电商平台封店自救：亚马逊/电商账号下架申诉与第一方数据备份解耦</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/023-supply-chain-delivery-crisis-sop/">
           <span class="guide-num">23</span>
-          <span class="guide-text">供应链中断与交付危机：大订单交不出货时的产能调配与客户信任保护</span>
+          <span class="guide-text">交付 ｜ 供应链中断与交付危机：大订单交不出货时的产能调配与客户信任保护</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/024-canada-us-tariff-compliance-hedging/">
           <span class="guide-num">24</span>
-          <span class="guide-text">加美关税避险与成本转移：Tariff Finder 工具、CUSMA 原产地穿透与 75 亿救济包</span>
+          <span class="guide-text">避险 ｜ 加美关税避险与成本转移：Tariff Finder 工具、CUSMA 原产地穿透与 75 亿救济包</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/025-canada-shareholder-agreement-usa/">
           <span class="guide-num">25</span>
-          <span class="guide-text">合伙人纠纷防线：股东协议（USA）必含的 13 个股权退场、防僵局与竞业条款</span>
+          <span class="guide-text">股东 ｜ 合伙人纠纷防线：股东协议（USA）必含的 13 个股权退场、防僵局与竞业条款</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/026-cra-tax-audit-etransfer-vdp-sop/">
           <span class="guide-num">26</span>
-          <span class="guide-text">CRA 税务稽查自救：E-transfer 收款查税逻辑、净资产审计与 VDP 自愿披露救命新政</span>
+          <span class="guide-text">查税 ｜ CRA 税务稽查自救：E-transfer 收款查税逻辑、净资产审计与 VDP 自愿披露救命新政</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/027-brick-and-mortar-pivot-b2b-asset-light/">
           <span class="guide-num">27</span>
-          <span class="guide-text">实体店转轻资产 B2B：租约转让换现金、爆款预制标准化与退守共享厨房 4 步 SOP</span>
+          <span class="guide-text">轻资产 ｜ 实体店转轻资产 B2B：租约转让换现金、爆款预制标准化与退守共享厨房 4 步 SOP</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/028-business-exit-valuation-lcge-tax-free/">
           <span class="guide-num">28</span>
-          <span class="guide-text">商业估值与合规退出：SDE/EBITDA 估值模型、尽调清理与 $127.5 万 LCGE 免税套现</span>
+          <span class="guide-text">出售 ｜ 商业估值与合规退出：SDE/EBITDA 估值模型、尽调清理与 $127.5 万 LCGE 免税套现</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>

@@ -503,17 +503,6 @@ toc: false
     </ul>
   </section>
 
-  <!-- 底部邮箱订阅 -->
-  <div class="guide-subscribe">
-    <div class="guide-subscribe-copy">
-      <strong>订阅 As We Build 北美商业笔记</strong>
-      <span>获取最新加拿大创业实盘拆解、政策变动与合规清单更新</span>
-    </div>
-    <form action="https://submit-form.com/kxienKoQo" method="POST">
-      <input type="checkbox" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
-      <input type="email" name="email" placeholder="输入常用邮箱..." required />
-      <button type="submit">免费订阅</button>
-    </form>
-  </div>
+ 
 
 </div>

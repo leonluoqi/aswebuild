@@ -308,7 +308,7 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/004-chinese-food-repositioning-mainstream-shelf/">
           <span class="guide-num">04</span>
-          <span class="guide-text">选品 ｜ 红海选品重塑：如何剔除“亚超低价内卷”，将传统食材推入主流高蛋白/健康货架</span>
+          <span class="guide-text">选品 ｜ 红海重塑：剔除“亚超低价内卷”，将传统食材推入主流高蛋白/健康货架</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
@@ -374,14 +374,14 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/012-ai-automation-solopreneur-sop/">
           <span class="guide-num">12</span>
-          <span class="guide-text">自动化 ｜ AI自动化极简人效：用 Durable、Make 与 n8n 打造 1 人抵 5 人的无人值守接单系统</span>
+          <span class="guide-text">自动化 ｜ AI自动化极简人效：打造 1 人抵 5 人的无人值守接单系统</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/013-english-copywriting-visual-localization/">
           <span class="guide-num">13</span>
-          <span class="guide-text">本地化 ｜ 本地化文案与视觉避坑：北美英文营销 6 大语法雷区与字体/配色本地化 SOP</span>
+          <span class="guide-text">本地化 ｜ 本地化文案与视觉避坑：北美英文营销 6 大语法雷区与字体/配色本地化</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
@@ -409,7 +409,7 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/017-cross-border-supply-chain-lead-time/">
           <span class="guide-num">17</span>
-          <span class="guide-text">供应链 ｜ 跨境供应链管控：中国代工+加拿大海运清关 60 天安全时间模型与 12 周滚动预测</span>
+          <span class="guide-text">供应链 ｜ 跨境供应链管控：中国代工+加拿大海运清关</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
@@ -423,14 +423,14 @@ toc: false
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/019-local-home-service-productized-dispatch/">
           <span class="guide-num">19</span>
-          <span class="guide-text">规模化 ｜ 本地上门服务规模化：告别按小时卖体力，用服务产品化与自动派单系统赚取 50% 毛利</span>
+          <span class="guide-text">规模化 ｜ 本地上门服务规模化：用服务产品化与自动派单系统赚取 50% 毛利</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>
       <li class="guide-item">
         <a class="guide-link" href="/business/guide/020-vancouver-farmers-market-popup-mvp/">
           <span class="guide-num">20</span>
-          <span class="guide-text">进社区 ｜ 农夫市集与快闪店：租店面之前先花 $100 摆摊，完成低成本测款与私域沉淀</span>
+          <span class="guide-text">进社区 ｜ 农夫市集与快闪店：租店面之前先花$100摆摊，完成低成本测款与私域沉淀</span>
           <span class="guide-arrow">→</span>
         </a>
       </li>

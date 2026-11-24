@@ -245,4 +245,84 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+{% assign schema_org_name = site.title | default: "AsWeBuild" %}
+{% assign schema_org_url = site.url | append: site.baseurl %}
+{% assign schema_author = page.author | default: site.author.name | default: "AsWeBuild" %}
+{% assign schema_modified = page.last_modified_at | default: page.date | default: site.time %}
+
+<!-- 1. 全站实体 Schema：Organization + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ schema_org_name | jsonify }},
+  "url": {{ schema_org_url | jsonify }},
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Vancouver, British Columbia, Canada"
+  },
+  "description": "Practical entrepreneurship case studies, small business operations, and execution guides for founders in North America and Canada."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ schema_org_name | jsonify }},
+  "url": {{ schema_org_url | jsonify }},
+  "inLanguage": ["zh-CN", "en"]
+}
+</script>
+
+<!-- 2. 文章页 Schema：仅在博文（_posts）中输出 Article -->
+{% if page.collection == 'posts' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ schema_modified | date_to_xmlschema | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.url | absolute_url | jsonify }}
+  },
+  "author": {
+    "@type": "Person",
+    "name": {{ schema_author | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ schema_org_name | jsonify }},
+    "url": {{ schema_org_url | jsonify }}
+  }
+}
+</script>
+{% endif %}
+
+<!-- 3. 可选 FAQPage Schema：仅在文章或页面 YAML 头部写了 faq: [...] 时输出 -->
+{% if page.faq and page.faq.size > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+
 <!-- end custom head snippets -->

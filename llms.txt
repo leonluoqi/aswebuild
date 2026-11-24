@@ -1,0 +1,17 @@
+# AsWeBuild
+
+> AsWeBuild (aswebuild.com) focuses on practical entrepreneurship case studies, small business operations, and execution guides for founders in North America and Canada (with special attention to Vancouver and BC). Published by LinQreative.
+
+Content on this site emphasizes real operating numbers, step-by-step SOPs, and practical pitfalls in starting and running small businesses. Informational guides are for educational reference and do not replace licensed legal, accounting, or tax advice.
+
+## Core Guides & Pillars
+- [加拿大创业手册](https://aswebuild.com/guide/): 28-part practical playbook covering startup setup, operations & customer acquisition, and crisis & exit guides for founders in Metro Vancouver and Canada.
+- [创业案例](https://aswebuild.com/%e5%8c%97%e7%be%8e%e5%88%9b%e4%b8%9a%e6%a1%88%e4%be%8b/): Curated case studies covering business models, validation, growth, and operational lessons across North America and Canada.
+- [女性创业](https://aswebuild.com/%e5%a5%b3%e6%80%a7%e5%88%9b%e4%b8%9a/): Curated stories, funding resources, and practical guides for women founders.
+- [跨境顾问](https://aswebuild.com/advisory/): Cross-border advisory and practical consulting resources for founders operating across borders.
+- [Entrepreneurship Resources](https://aswebuild.com/resources/): Centralized resource hub, compliance/tax references, and practical calculators/tools for small business planning.
+- [Entrepreneurship Toolkit](https://aswebuild.com/tools/): Curated software and tool recommendations for small business operations, automation, and growth.
+
+## Optional
+- [Terms of Service & Disclaimer](https://aswebuild.com/terms/): Terms of use and disclaimer for AsWeBuild.
+- [Privacy Policy](https://aswebuild.com/privacy/): Privacy policy for AsWeBuild.
